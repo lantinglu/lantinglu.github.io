@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome"
+title: ""
 excerpt: ""
 author_profile: true
 redirect_from: 
@@ -17,6 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# Welcome
 
 # 🔥 News
 - : &nbsp;🎉
@@ -25,16 +26,17 @@ redirect_from:
 # 📝 Publications 
 
 
-# 🎖 Honors and Awards
-
-
 # 📖 Educations
 -  **University of Washington**, 2022.09 - 2026.06 (expected)<br>
 Bachelor of Science in Computer Science<br>
 Bachelor of Science in Applied Mathematics: Data Science
 
-# 💬 Invited Talks
+# 🎖 Honors and Awards
 
 
 # 💻 Internships
 -
+
+# 💬 Invited Talks
+
+
