@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # Welcome
-Hi! I’m an undergraduate student and researcher at the University of Washington. I double major in Computer Science and Applied Mathematics.
+Hi! I am an undergraduate student and researcher at the University of Washington, double majoring in Computer Science and Applied Mathematics.
 
 # 🔥 News
 - : &nbsp;🎉
