@@ -30,7 +30,7 @@ redirect_from:
 
 # 📖 Educations
 -  **University of Washington**, 2022.09 - 2026.06 (expected)<br>
-Bachelor of Science in Computer Science with Honors<br>
+Bachelor of Science in Computer Science<br>
 Bachelor of Science in Applied Mathematics: Data Science
 
 # 💬 Invited Talks
