@@ -27,7 +27,7 @@ author:
   location         : "Seattle, WA / Shanghai"
   employer         :
   pubmed           : 
-  googlescholar    : ""
+  #googlescholar    : 
   email            : "tinalu0476@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
