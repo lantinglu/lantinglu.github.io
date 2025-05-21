@@ -36,12 +36,48 @@ Bachelor of Science in Applied Mathematics: Data Science
   - Database design for intelligent parking system, documentation of intelligent system design, system development specifications and database specifications, project management assisting.
 
 # 🏅 Projects
-<div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-  <div style="display: flex; flex-direction: column; gap: 10px; width: 1200px; margin-right: 20px;">
-    <img src="/images/wordplay1.png" alt="Screenshot 1" style="width: 100%; border-radius: 6px;">
-  </div>
+<style>
+  .wordplay-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
 
-  <div>
+  .wordplay-text {
+    flex: 1;
+    margin-right: 20px;
+    min-width: 280px;
+  }
+
+  .wordplay-image {
+    width: 400px;
+    flex-shrink: 0;
+  }
+
+  .wordplay-image img {
+    width: 100%;
+    border-radius: 6px;
+  }
+
+  @media (max-width: 768px) {
+    .wordplay-container {
+      flex-direction: column;
+    }
+
+    .wordplay-text {
+      margin-right: 0;
+      margin-bottom: 16px;
+    }
+
+    .wordplay-image {
+      width: 100%;
+    }
+  }
+</style>
+
+- <div class="wordplay-container">
+  <div class="wordplay-text">
     <div style="font-size: 20px; font-weight: bold;">
       Wordplay: An Interactive Programming Language for Multilingual and Inclusive Expression
     </div>
@@ -49,7 +85,7 @@ Bachelor of Science in Applied Mathematics: Data Science
       UW iSchool & Allen School
     </div>
     <div style="margin: 10px 0;">
-      Participating in the development and testing of <strong>Wordplay</strong>, an interactive programming language designed for multilingual users and people with disabilities. Working on responsive data flow modules, graphical and interactive programming features, and contributed to an adaptable programming prototype. Regularly reported project progress, discussed human-computer interaction research topics, and summarized experimental findings.  
+      Participating in the development and testing of <strong>Wordplay</strong>, an interactive programming language designed for multilingual users and people with disabilities. Working on responsive data flow modules, graphical and interactive programming features, and contributed to an adaptable programming prototype. Regularly reported project progress, discussed human-computer interaction research topics, and summarized experimental findings.
     </div>
     <div style="margin: 6px 0;">
       <strong>Languages & Tools</strong>: JavaScript, TypeScript, HTML, CSS, Svelte/SvelteKit, Git
@@ -63,7 +99,12 @@ Bachelor of Science in Applied Mathematics: Data Science
       </a>
     </div>
   </div>
+
+  <div class="wordplay-image">
+    <img src="/images/wordplay1.png" alt="Screenshot 1">
+  </div>
 </div>
+
 
 
 - **COVID-19 Vaccine Reservation System** <br>
