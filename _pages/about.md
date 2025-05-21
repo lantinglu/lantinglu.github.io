@@ -17,7 +17,6 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# Welcome
 Hi! I am an undergraduate student at the University of Washington, double majoring in Computer Science and Applied Mathematics.
 
 # 🔥 News
@@ -32,6 +31,8 @@ Bachelor of Science in Computer Science<br>
 Bachelor of Science in Applied Mathematics: Data Science
 
 # 💻 Internships
+- **Optimization of OCR model in information extraction @Shanghai Fudan University** &nbsp; &nbsp;Project Assistant &nbsp;&nbsp; 20/week &nbsp;&nbsp; Jun – Dec 2024 <br>
+  Worked under Professor Wei Wang’s guidance on pollutant information extraction using OCR technologies. Conducted references review, designed scripts for text recognition and analysis, and prepared regular reports on model development and performance evaluation.  <br>
 - Shanghai Chengdian Fuzhi Technology Co., Ltd. &nbsp; &nbsp; Project Assistant &nbsp; &nbsp; 40h/week &nbsp; &nbsp;Jun-Sep 2023<br>
 Database design for intelligent parking system, documentation of intelligent system design, system
 development specifications and database specifications, project management assisting
@@ -42,9 +43,6 @@ development specifications and database specifications, project management assis
   Participated in the development and testing of **Wordplay**, an interactive programming language designed for multilingual users and people with disabilities. Worked on responsive data flow modules, graphical and interactive programming features, and contributed to an adaptable programming prototype. Regularly reported project progress, discussed human-computer interaction research topics, and summarized experimental findings.  
   **Languages & Tools**: JavaScript, TypeScript, HTML, CSS, Svelte/SvelteKit, Git <br>
   **Link**: [Wordplay](https://wordplay.dev/) & [github](https://github.com/wordplaydev/wordplay)<br>
-
-- **Optimization of OCR model in information extraction @Shanghai Fudan University**  &nbsp; Jun – Dec 2024 (15h/week) <br>
-  Worked under Professor Wei Wang’s guidance on pollutant information extraction using OCR technologies. Conducted references review, designed scripts for text recognition and analysis, and prepared regular reports on model development and performance evaluation.  <br>
 
 - **COVID-19 Vaccine Reservation System** <br>
   Designed and implemented a vaccine appointment scheduling system that allows users to create accounts, log in, check caregiver schedules, and reserve appointments through a terminal interface. Developed secure login with password hashing and salting, modeled patients and caregivers, and managed vaccine stock using SQL. Connected the system to a Microsoft Azure SQL database via JDBC. <br> 
