@@ -17,6 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# About
 Hi! I am an undergraduate student at the University of Washington, double majoring in Computer Science and Applied Mathematics.
 
 # 🔥 News
@@ -30,14 +31,20 @@ Hi! I am an undergraduate student at the University of Washington, double majori
 Bachelor of Science in Computer Science<br>
 Bachelor of Science in Applied Mathematics: Data Science
 
-# 💻 Internships
-- **Optimization of OCR model in information extraction @Shanghai Fudan University** &nbsp; &nbsp;Project Assistant &nbsp;&nbsp; 20/week &nbsp;&nbsp; Jun – Dec 2024 <br>
-  Worked under Professor Wei Wang’s guidance on pollutant information extraction using OCR technologies. Conducted references review, designed scripts for text recognition and analysis, and prepared regular reports on model development and performance evaluation.  <br>
-- Shanghai Chengdian Fuzhi Technology Co., Ltd. &nbsp; &nbsp; Project Assistant &nbsp; &nbsp; 40h/week &nbsp; &nbsp;Jun-Sep 2023<br>
-Database design for intelligent parking system, documentation of intelligent system design, system
+# 💼 Industrial Experience
+- <p style="font-size: 18px; font-weight: bold;">
+  Optimization of OCR model in information extraction @Shanghai Fudan University
+</p>
+<p><i>Project Assistant</i><br>
+  Worked under Professor Wei Wang’s guidance on pollutant information extraction using OCR model. Conducted references review, designed scripts for text recognition and analysis, and prepared regular reports on model development and performance evaluation.
+</p>
+
+- **Shanghai Chengdian Fuzhi Technology Co., Ltd.** &nbsp; &nbsp;Jun-Sep 2023<br>
+  Project Assistant
+  Database design for intelligent parking system, documentation of intelligent system design, system
 development specifications and database specifications, project management assisting
 
-# 🎖 Projects
+# 🏅 Projects
 - **Wordplay @ UW iSchool & Paul G. Allen School of Computer Science & Engineering** &nbsp; &nbsp; Dec 2024 – Now (12h/week) <br>
   *Interactive Programming Language*
   Participated in the development and testing of **Wordplay**, an interactive programming language designed for multilingual users and people with disabilities. Worked on responsive data flow modules, graphical and interactive programming features, and contributed to an adaptable programming prototype. Regularly reported project progress, discussed human-computer interaction research topics, and summarized experimental findings.  
