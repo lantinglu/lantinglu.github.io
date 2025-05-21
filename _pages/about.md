@@ -32,33 +32,21 @@ Bachelor of Science in Computer Science<br>
 Bachelor of Science in Applied Mathematics: Data Science
 
 # 💼 Work Experience
-<ul>
-  <li>
-    <div style="font-size: 18px; font-weight: bold;">
-      Shanghai Fudan University  &nbsp;&nbsp; Jun–Sep 2024 &nbsp;&nbsp; <span style="font-style: italic; font-weight: bold;">Project Assistant</span>
-    </div>
-    <div style="margin-left: 20px;">
-      <i>Project Assistant</i><br>
-      Professor Wei Wang's team participation, literature search, pollutant information extraction OCR
-      research, model analysis, program design, project work report under the guidance of the professor.
-    </div>
-  </li>
-</ul>
 
-<ul>
-  <li>
-    <div style="font-size: 18px; font-weight: bold;">
-      Shanghai Chengdian Fuzhi Technology Co., Ltd. &nbsp;&nbsp; Jun–Sep 2023 &nbsp;&nbsp; <span style="font-style: italic; font-weight: bold;">Project Assistant</span>
-    </div>
-    <div>
-      Database design for intelligent parking system, documentation of intelligent system design, system development specifications and database specifications, project management assisting.
-    </div>
-  </li>
-</ul>
+- **Shanghai Fudan University**, *Jun–Sep 2024*  
+  *Project Assistant*  
+  ○ Participated in Prof. Wei Wang's team for literature search, pollutant information extraction OCR research  
+  ○ Model analysis, program design, and project reporting under supervision
+
+- **Shanghai Chengdian Fuzhi Technology Co., Ltd.**, *Jun–Sep 2023*  
+  *Project Assistant*  
+  ○ Designed database for intelligent parking system  
+  ○ Documented system specifications and assisted in project management
+
 
 
 # 🏅 Projects
-- **Wordplay @ UW iSchool & Paul G. Allen School of Computer Science & Engineering** &nbsp; &nbsp; Dec 2024 – Now (12h/week) <br>
+- **Wordplay @ UW iSchool & Paul G. Allen School of Computer Science & Engineering** &nbsp; &nbsp; Dec 2024 – Now<br>
   *Interactive Programming Language*
   Participated in the development and testing of **Wordplay**, an interactive programming language designed for multilingual users and people with disabilities. Worked on responsive data flow modules, graphical and interactive programming features, and contributed to an adaptable programming prototype. Regularly reported project progress, discussed human-computer interaction research topics, and summarized experimental findings.  
   **Languages & Tools**: JavaScript, TypeScript, HTML, CSS, Svelte/SvelteKit, Git <br>
