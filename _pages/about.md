@@ -76,10 +76,10 @@ Bachelor of Science in Applied Mathematics: Data Science
   }
 </style>
 
-- <div class="wordplay-container">
+<div class="wordplay-container">
   <div class="wordplay-text">
     <div style="font-size: 20px; font-weight: bold;">
-      Wordplay: An Interactive Programming Language for Multilingual and Inclusive Expression
+      • Wordplay: An Interactive Programming Language for Multilingual and Inclusive Expression
     </div>
     <div style="margin: 4px 0; font-style: italic;">
       UW iSchool & Allen School
@@ -104,8 +104,6 @@ Bachelor of Science in Applied Mathematics: Data Science
     <img src="/images/wordplay1.png" alt="Screenshot 1">
   </div>
 </div>
-
-
 
 - **COVID-19 Vaccine Reservation System** <br>
   Designed and implemented a vaccine appointment scheduling system that allows users to create accounts, log in, check caregiver schedules, and reserve appointments through a terminal interface. Developed secure login with password hashing and salting, modeled patients and caregivers, and managed vaccine stock using SQL. Connected the system to a Microsoft Azure SQL database via JDBC. <br> 
