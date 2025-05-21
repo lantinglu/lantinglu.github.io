@@ -48,7 +48,7 @@ development specifications and database specifications, project management assis
 
 - **COVID-19 Vaccine Reservation System** <br>
   Designed and implemented a vaccine appointment scheduling system that allows users to create accounts, log in, check caregiver schedules, and reserve appointments through a terminal interface. Developed secure login with password hashing and salting, modeled patients and caregivers, and managed vaccine stock using SQL. Connected the system to a Microsoft Azure SQL database via JDBC. <br> 
-  **Languages & Tools**: Java, SQL, JDBC, IntelliJ, Microsoft Azure <br>
+  **Languages & Tools**: Java, SQL, JDBC, Microsoft Azure <br>
   **Link**: [COVID-19 Vaccine Reservation System](https://github.com/lantinglu/COVID-19-Vaccine-Reservation-System)
 
 - **tinyserv: Exploit Analysis & Patch Development**  
@@ -58,7 +58,7 @@ development specifications and database specifications, project management assis
 
 - **Dynamic Storage Allocator**   
   Developed a dynamic memory allocator in C from scratch, implementing malloc, free, and heap coalescing using an explicit free list. <br>
-  **Languages & Tools**: C, GDB, GCC, Valgrind, Trace-Driven Performance Testing  <br>
+  **Languages & Tools**: C, GDB, GCC <br>
   **Link**: [Dynamic Storage Allocator](https://github.com/lantinglu/CSE351-The-Hardware-Software-Interface/tree/main/lab5)
 
 
