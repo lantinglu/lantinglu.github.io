@@ -35,7 +35,7 @@ Bachelor of Science in Applied Mathematics: Data Science
 <ul>
   <li>
     <div style="font-size: 18px; font-weight: bold;">
-      Shanghai Fudan University &nbsp;&nbsp; Jun–Sep 2024
+      Shanghai Fudan University  &nbsp;&nbsp; Jun–Sep 2024 &nbsp;&nbsp; <span style="font-style: italic; font-weight: bold;">Project Assistant</span>
     </div>
     <div style="margin-left: 20px;">
       <i>Project Assistant</i><br>
@@ -48,10 +48,9 @@ Bachelor of Science in Applied Mathematics: Data Science
 <ul>
   <li>
     <div style="font-size: 18px; font-weight: bold;">
-      Shanghai Chengdian Fuzhi Technology Co., Ltd. &nbsp;&nbsp; Jun–Sep 2023
+      Shanghai Chengdian Fuzhi Technology Co., Ltd. &nbsp;&nbsp; Jun–Sep 2023 &nbsp;&nbsp; <span style="font-style: italic; font-weight: bold;">Project Assistant</span>
     </div>
-    <div style="margin-left: 20px;">
-      <i>Project Assistant</i><br>
+    <div>
       Database design for intelligent parking system, documentation of intelligent system design, system development specifications and database specifications, project management assisting.
     </div>
   </li>
