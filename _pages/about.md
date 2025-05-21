@@ -32,23 +32,31 @@ Bachelor of Science in Computer Science<br>
 Bachelor of Science in Applied Mathematics: Data Science
 
 # 💼 Work Experience
-- 
 <ul>
   <li>
     <div style="font-size: 18px; font-weight: bold;">
-      Optimization of OCR model in information extraction @Shanghai Fudan University
+      Shanghai Fudan University &nbsp;&nbsp; Jun–Sep 2024
     </div>
     <div style="margin-left: 20px;">
       <i>Project Assistant</i><br>
-      Worked under Professor Wei Wang’s guidance on pollutant information extraction using OCR model. Conducted references review, designed scripts for text recognition and analysis, and prepared regular reports on model development and performance evaluation.
+      Professor Wei Wang's team participation, literature search, pollutant information extraction OCR
+      research, model analysis, program design, project work report under the guidance of the professor.
     </div>
   </li>
 </ul>
 
-- **Shanghai Chengdian Fuzhi Technology Co., Ltd.** &nbsp; &nbsp;Jun-Sep 2023<br>
-  Project Assistant
-  Database design for intelligent parking system, documentation of intelligent system design, system
-development specifications and database specifications, project management assisting
+<ul>
+  <li>
+    <div style="font-size: 18px; font-weight: bold;">
+      Shanghai Chengdian Fuzhi Technology Co., Ltd. &nbsp;&nbsp; Jun–Sep 2023
+    </div>
+    <div style="margin-left: 20px;">
+      <i>Project Assistant</i><br>
+      Database design for intelligent parking system, documentation of intelligent system design, system development specifications and database specifications, project management assisting.
+    </div>
+  </li>
+</ul>
+
 
 # 🏅 Projects
 - **Wordplay @ UW iSchool & Paul G. Allen School of Computer Science & Engineering** &nbsp; &nbsp; Dec 2024 – Now (12h/week) <br>
