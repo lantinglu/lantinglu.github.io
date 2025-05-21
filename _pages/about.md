@@ -38,8 +38,8 @@ Bachelor of Science in Applied Mathematics: Data Science
 # 🏅 Projects
 <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
   <div style="display: flex; flex-direction: column; gap: 10px; width: 1000px; margin-right: 20px;">
-    <img src="wordplay1.png" alt="Screenshot 1" style="width: 100%; border-radius: 6px;">
-    <img src="wordplay2.png" alt="Screenshot 2" style="width: 100%; border-radius: 6px;">
+    <img src="/images/wordplay1.png" alt="Screenshot 1" style="width: 100%; border-radius: 6px;">
+    <img src="/images/wordplay2.png" alt="Screenshot 2" style="width: 100%; border-radius: 6px;">
   </div>
 
   <div>
