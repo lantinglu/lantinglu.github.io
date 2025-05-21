@@ -32,7 +32,7 @@ Bachelor of Science in Computer Science<br>
 Bachelor of Science in Applied Mathematics: Data Science
 
 # 💻 Internships
-- Shanghai Chengdian Fuzhi Technology Co., Ltd. Project Assistant 40h/week Jun-Sep 2023
+- Shanghai Chengdian Fuzhi Technology Co., Ltd. &nbsp; &nbsp; Project Assistant &nbsp; &nbsp; 40h/week &nbsp; &nbsp;Jun-Sep 2023<br>
 Database design for intelligent parking system, documentation of intelligent system design, system
 development specifications and database specifications, project management assisting
 
