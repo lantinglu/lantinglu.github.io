@@ -31,13 +31,19 @@ Hi! I am an undergraduate student at the University of Washington, double majori
 Bachelor of Science in Computer Science<br>
 Bachelor of Science in Applied Mathematics: Data Science
 
-# 💼 Industrial Experience
-- <p style="font-size: 18px; font-weight: bold;">
-  Optimization of OCR model in information extraction @Shanghai Fudan University
-</p>
-<p><i>Project Assistant</i><br>
-  Worked under Professor Wei Wang’s guidance on pollutant information extraction using OCR model. Conducted references review, designed scripts for text recognition and analysis, and prepared regular reports on model development and performance evaluation.
-</p>
+# 💼 Work Experience
+- 
+<ul>
+  <li>
+    <div style="font-size: 18px; font-weight: bold;">
+      Optimization of OCR model in information extraction @Shanghai Fudan University
+    </div>
+    <div style="margin-left: 20px;">
+      <i>Project Assistant</i><br>
+      Worked under Professor Wei Wang’s guidance on pollutant information extraction using OCR model. Conducted references review, designed scripts for text recognition and analysis, and prepared regular reports on model development and performance evaluation.
+    </div>
+  </li>
+</ul>
 
 - **Shanghai Chengdian Fuzhi Technology Co., Ltd.** &nbsp; &nbsp;Jun-Sep 2023<br>
   Project Assistant
