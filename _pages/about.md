@@ -88,14 +88,13 @@ Bachelor of Science in Applied Mathematics: Data Science
       Participating in the development and testing of <strong>Wordplay</strong>, an interactive programming language designed for multilingual users and people with disabilities. Working on responsive data flow modules, graphical and interactive programming features, and contributed to an adaptable programming prototype. Regularly reported project progress, discussed human-computer interaction research topics, and summarized experimental findings.
     </div>
     <div style="margin: 6px 0;">
-      <strong>Languages & Tools</strong>: JavaScript, TypeScript, HTML, CSS, Svelte/SvelteKit, Git
+      <strong>Languages & Tools</strong>: JavaScript, TypeScript, HTML, CSS, Svelte/SvelteKit
     </div>
     <div style="margin-top: 10px;">
       <a href="https://wordplay.dev/" style="text-decoration: none; margin-right: 8px;">
         <img src="https://img.shields.io/badge/🌐-Wordplay website-blue?style=flat" alt="Website">
       </a>
-      <a href="https://github.com/wordplaydev/wordplay" style="text-decoration: none;">
-        <img src="https://img.shields.io/badge/🧠-GitHub-black?style=flat" alt="GitHub">
+      <img src="https://img.shields.io/badge/-GitHub-black?logo=github&style=flat" alt="GitHub">
       </a>
     </div>
   </div>
@@ -105,20 +104,71 @@ Bachelor of Science in Applied Mathematics: Data Science
   </div>
 </div>
 
-- **COVID-19 Vaccine Reservation System** <br>
-  Designed and implemented a vaccine appointment scheduling system that allows users to create accounts, log in, check caregiver schedules, and reserve appointments through a terminal interface. Developed secure login with password hashing and salting, modeled patients and caregivers, and managed vaccine stock using SQL. Connected the system to a Microsoft Azure SQL database via JDBC. <br> 
-  **Languages & Tools**: Java, SQL, JDBC, Microsoft Azure <br>
-  **Link**: [COVID-19 Vaccine Reservation System](https://github.com/lantinglu/COVID-19-Vaccine-Reservation-System)
+<div class="project-container">
+  <div class="project-text">
+    <div style="font-size: 20px; font-weight: bold;">
+      • Vaccine Reservation System
+    </div>
+    <div style="margin: 4px 0; font-style: italic;">
+    </div>
+    <div style="margin: 10px 0;">
+      Designed and implemented a vaccine appointment scheduling system that allows users to create accounts, log in, check caregiver schedules, and reserve appointments through a terminal interface. Developed secure login with password hashing and salting, modeled patients and caregivers, and managed vaccine stock using SQL. Connected the system to a Microsoft Azure SQL database via JDBC.
+    </div>
+    <div style="margin: 6px 0;">
+      <strong>Languages & Tools</strong>: Java, SQL, JDBC, Microsoft Azure
+    </div>
+    <div style="margin-top: 10px;">
+      <a href="https://github.com/lantinglu/COVID-19-Vaccine-Reservation-System" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
+      </a>
+    </div>
+  </div>
+</div>
 
-- **tinyserv: Exploit Analysis & Patch Development**  
-  Investigated real-world exploits on a vulnerable HTTP server (`tinyserv`), performed root-cause analysis, and wrote secure patches in C to prevent unauthorized access to admin-only pages. Ensured functional correctness and long-term security across both normal and malicious inputs. <br>
-  **Languages & Tools**: C, Git, gdb, curl, HTTP  <br>
-  **Link**: [tinyserv](https://github.com/lantinglu/tinyserv)
+<div class="project-container">
+  <div class="project-text">
+    <div style="font-size: 20px; font-weight: bold;">
+      • tinyserv: Exploit Analysis & Patch Development
+    </div>
+    <div style="margin: 4px 0; font-style: italic;">
+      Systems Security Project
+    </div>
+    <div style="margin: 10px 0;">
+      Investigated real-world exploits on a vulnerable HTTP server (<code>tinyserv</code>), performed root-cause analysis, and wrote secure patches in C to prevent unauthorized access to admin-only pages. Ensured functional correctness and long-term security across both normal and malicious inputs.
+    </div>
+    <div style="margin: 6px 0;">
+      <strong>Languages & Tools</strong>: C, gdb, curl, HTTP
+    </div>
+    <div style="margin-top: 10px;">
+      <a href="https://github.com/lantinglu/tinyserv" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
+      </a>
+    </div>
+  </div>
+</div>
 
-- **Dynamic Storage Allocator**   
-  Developed a dynamic memory allocator in C from scratch, implementing malloc, free, and heap coalescing using an explicit free list. <br>
-  **Languages & Tools**: C, gdb <br>
-  **Link**: [Dynamic Storage Allocator](https://github.com/lantinglu/CSE351-The-Hardware-Software-Interface/tree/main/lab5)
+<div class="project-container">
+  <div class="project-text">
+    <div style="font-size: 20px; font-weight: bold;">
+      • Dynamic Storage Allocator
+    </div>
+    <div style="margin: 4px 0; font-style: italic;">
+      Systems Programming Lab
+    </div>
+    <div style="margin: 10px 0;">
+      Developed a dynamic memory allocator in C from scratch, implementing <code>malloc</code>, <code>free</code>, and heap coalescing using an explicit free list.
+    </div>
+    <div style="margin: 6px 0;">
+      <strong>Languages & Tools</strong>: C, gdb
+    </div>
+    <div style="margin-top: 10px;">
+      <a href="https://github.com/lantinglu/CSE351-The-Hardware-Software-Interface/tree/main/lab5" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/-Dynamic%20Allocator-black?logo=github&style=flat" alt="GitHub">
+      </a>
+    </div>
+  </div>
+</div>
+
 
 
 
