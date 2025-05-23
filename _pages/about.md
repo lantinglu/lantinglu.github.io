@@ -97,8 +97,8 @@ Bachelor of Science in Applied Mathematics: Data Science
       <a href="https://github.com/wordplaydev/wordplay" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/-GitHub-black?logo=github&style=flat" alt="GitHub">
       </a>
+    </div>
   </div>
-
 
   <div class="wordplay-image">
     <img src="/images/wordplay1.png" alt="Screenshot 1">
