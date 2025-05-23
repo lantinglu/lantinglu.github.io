@@ -139,8 +139,6 @@ Bachelor of Science in Applied Mathematics: Data Science
         <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
       </a>
     </div> 
-    </div>
-  </div>
 </div>
 
 <div class="project-container">
