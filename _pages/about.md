@@ -27,7 +27,7 @@ Bachelor of Science in Applied Mathematics: Data Science
 
 # 💼 Work Experience
 
-- <span style="font-size: 18px;"><strong>Shanghai Fudan University</strong></span>, *Jun–Sep 2024*  
+- <span style="font-size: 18px;"><strong>Fudan University</strong></span>, *Jun–Sep 2024*  
   *Research Assistant*  
   - Professor Wei Wang's team participation, literature search, pollutant information extraction OCR research, model analysis, program design, project work report under the guidance of the professor
 
