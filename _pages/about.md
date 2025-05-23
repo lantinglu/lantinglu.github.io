@@ -116,13 +116,12 @@ Bachelor of Science in Applied Mathematics: Data Science
       Designed and implemented a vaccine appointment scheduling system that allows users to create accounts, log in, check caregiver schedules, and reserve appointments through a terminal interface. Developed secure login with password hashing and salting, modeled patients and caregivers, and managed vaccine stock using SQL. Connected the system to a Microsoft Azure SQL database via JDBC.
     </div>
     <div style="margin: 6px 0;">
-      <strong>Languages & Tools</strong>: Java, SQL, JDBC, Microsoft Azure
-    </div>
-    <div style="margin-top: 10px;">
-      <a href="https://github.com/lantinglu/COVID-19-Vaccine-Reservation-System" style="text-decoration: none;">
-        <img src="https://img.shields.io/badge/-Vaccine Reservation System-black?logo=github&style=flat" alt="GitHub">
+      <strong>Languages & Tools</strong>: 
+      <span>Java, SQL, JDBC, Microsoft Azure</span>
+      <a href="https://github.com/lantinglu/COVID-19-Vaccine-Reservation-System" style="text-decoration: none; margin-left: 8px; vertical-align: middle;">
+        <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
       </a>
-    </div>
+  </div>
   </div>
 </div>
 
@@ -131,19 +130,15 @@ Bachelor of Science in Applied Mathematics: Data Science
     <div style="font-size: 20px; font-weight: bold;">
       • tinyserv: Exploit Analysis & Patch Development
     </div>
-    <div style="margin: 4px 0; font-style: italic;">
-      Systems Security Project
-    </div>
     <div style="margin: 10px 0;">
       Investigated real-world exploits on a vulnerable HTTP server (<code>tinyserv</code>), performed root-cause analysis, and wrote secure patches in C to prevent unauthorized access to admin-only pages. Ensured functional correctness and long-term security across both normal and malicious inputs.
     </div>
-    <div style="margin: 6px 0;">
+    <div style="margin: 6px 0;"> 
       <strong>Languages & Tools</strong>: C, gdb, curl, HTTP
-    </div>
-    <div style="margin-top: 10px;">
-      <a href="https://github.com/lantinglu/tinyserv" style="text-decoration: none;">
-        <img src="https://img.shields.io/badge/-tinyserv-black?logo=github&style=flat" alt="GitHub">
+      <a href="https://github.com/lantinglu/tinyserv" style="text-decoration: none; margin-left: 8px; vertical-align: middle;">
+        <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
       </a>
+    </div> 
     </div>
   </div>
 </div>
@@ -153,18 +148,13 @@ Bachelor of Science in Applied Mathematics: Data Science
     <div style="font-size: 20px; font-weight: bold;">
       • Dynamic Storage Allocator
     </div>
-    <div style="margin: 4px 0; font-style: italic;">
-      Systems Programming Lab
-    </div>
     <div style="margin: 10px 0;">
       Developed a dynamic memory allocator in C from scratch, implementing <code>malloc</code>, <code>free</code>, and heap coalescing using an explicit free list.
     </div>
     <div style="margin: 6px 0;">
       <strong>Languages & Tools</strong>: C, gdb
-    </div>
-    <div style="margin-top: 10px;">
-      <a href="https://github.com/lantinglu/CSE351-The-Hardware-Software-Interface/tree/main/lab5" style="text-decoration: none;">
-        <img src="https://img.shields.io/badge/-Dynamic%20Allocator-black?logo=github&style=flat" alt="GitHub">
+      <a href="https://github.com/lantinglu/CSE351-The-Hardware-Software-Interface/tree/main/lab5" style="text-decoration: none; margin-left: 8px; vertical-align: middle;">
+        <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
       </a>
     </div>
   </div>
