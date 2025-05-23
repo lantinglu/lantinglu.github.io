@@ -94,10 +94,11 @@ Bachelor of Science in Applied Mathematics: Data Science
       <a href="https://wordplay.dev/" style="text-decoration: none; margin-right: 8px;">
         <img src="https://img.shields.io/badge/🌐-Wordplay website-blue?style=flat" alt="Website">
       </a>
-      <img src="https://img.shields.io/badge/-GitHub-black?logo=github&style=flat" alt="GitHub">
+      <a href="https://github.com/wordplaydev/wordplay" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/-GitHub-black?logo=github&style=flat" alt="GitHub">
       </a>
-    </div>
   </div>
+
 
   <div class="wordplay-image">
     <img src="/images/wordplay1.png" alt="Screenshot 1">
@@ -119,7 +120,7 @@ Bachelor of Science in Applied Mathematics: Data Science
     </div>
     <div style="margin-top: 10px;">
       <a href="https://github.com/lantinglu/COVID-19-Vaccine-Reservation-System" style="text-decoration: none;">
-        <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
+        <img src="https://img.shields.io/badge/-Vaccine Reservation System-black?logo=github&style=flat" alt="GitHub">
       </a>
     </div>
   </div>
@@ -141,7 +142,7 @@ Bachelor of Science in Applied Mathematics: Data Science
     </div>
     <div style="margin-top: 10px;">
       <a href="https://github.com/lantinglu/tinyserv" style="text-decoration: none;">
-        <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
+        <img src="https://img.shields.io/badge/-tinyserv-black?logo=github&style=flat" alt="GitHub">
       </a>
     </div>
   </div>
