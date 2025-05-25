@@ -131,7 +131,7 @@ Bachelor of Science in Applied Mathematics: Data Science
       • tinyserv: Exploit Analysis & Patch Development
     </div>
     <div style="margin: 10px 0;">
-      Investigated real-world exploits on a vulnerable HTTP server (<code>tinyserv</code>), performed root-cause analysis, and wrote secure patches in C to prevent unauthorized access to admin-only pages. Ensured functional correctness and long-term security across both normal and malicious inputs.
+      Investigated real-world exploits on a vulnerable HTTP server (<code>tinyserv</code>), performed root-cause analysis, and wrote secure patches to prevent unauthorized access to admin-only pages. Ensured functional correctness and long-term security across both normal and malicious inputs.
     </div>
     <div style="margin: 6px 0;"> 
       <strong>Languages & Tools</strong>: C, gdb, curl, HTTP
@@ -169,7 +169,7 @@ Bachelor of Science in Applied Mathematics: Data Science
     <div style="margin: 6px 0;">
       <strong>Languages & Tools</strong>: Python
       <a href="https://github.com/lantinglu/PaddleOCR-pollution" style="text-decoration: none;">
-        <img src="https://img.shields.io/badge/-GitHub-black?logo=github&style=flat" alt="GitHub">
+        <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
       </a>
     </div>
   </div>
