@@ -101,7 +101,7 @@ Bachelor of Science in Applied Mathematics: Data Science
   </div>
 
   <div class="wordplay-image">
-    <img src="/images/wordplay1.png" alt="Screenshot 1">
+    <img src="/images/wordplay1.png" alt="wordplay">
   </div>
 </div>
 
@@ -174,6 +174,6 @@ Bachelor of Science in Applied Mathematics: Data Science
     </div>
   </div>
   <div class="wordplay-image">
-    <img src="/images/paddleocr.jpg" alt="PaddleOCR screenshot">
+    <img src="/images/PaddleOCR pic.jpg" alt="PaddleOCR">
   </div>
 </div>
