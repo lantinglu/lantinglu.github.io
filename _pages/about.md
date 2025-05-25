@@ -177,6 +177,6 @@ Bachelor of Science in Applied Mathematics: Data Science
     </div>
   </div>
   <div class="wordplay-image">
-    <img src="/images/PaddleOCR.png" alt="PaddleOCR">
+    <img src="/images/Paddleocr.png" alt="PaddleOCR">
   </div>
 </div>
