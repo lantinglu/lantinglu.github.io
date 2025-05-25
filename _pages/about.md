@@ -163,6 +163,9 @@ Bachelor of Science in Applied Mathematics: Data Science
     <div style="font-size: 20px; font-weight: bold;">
       • Pollutant Information Extraction with OCR
     </div>
+    <div style="margin: 4px 0; font-style: italic;">
+      Fudan University
+    </div>
     <div style="margin: 10px 0;">
       Extracting environmental pollutant information from industrial environmental assessment PDFs using PaddleOCR.
     </div>
@@ -174,6 +177,6 @@ Bachelor of Science in Applied Mathematics: Data Science
     </div>
   </div>
   <div class="wordplay-image">
-    <img src="/images/PaddleOCR pic.jpg" alt="PaddleOCR">
+    <img src="/images/PaddleOCR.jpg" alt="PaddleOCR">
   </div>
 </div>
