@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # About
-Hi! I am an undergraduate student at the University of Washington, double majoring in Computer Science and Applied Mathematics.
+I am an undergraduate student at the University of Washington, double majoring in Computer Science and Applied Mathematics.
 
 # 📖 Educations
 -  **University of Washington**, 2022.09 - 2026.06 (expected)<br>
@@ -158,7 +158,22 @@ Bachelor of Science in Applied Mathematics: Data Science
   </div>
 </div>
 
-
-
-
-
+<div class="wordplay-container">
+  <div class="wordplay-text">
+    <div style="font-size: 20px; font-weight: bold;">
+      • Pollutant Information Extraction with OCR
+    </div>
+    <div style="margin: 10px 0;">
+      Extracting environmental pollutant information from industrial environmental assessment PDFs using PaddleOCR.
+    </div>
+    <div style="margin: 6px 0;">
+      <strong>Languages & Tools</strong>: Python
+      <a href="https://github.com/lantinglu/PaddleOCR-pollution" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/-GitHub-black?logo=github&style=flat" alt="GitHub">
+      </a>
+    </div>
+  </div>
+  <div class="wordplay-image">
+    <img src="/images/paddleocr.jpg" alt="PaddleOCR screenshot">
+  </div>
+</div>
