@@ -148,24 +148,7 @@ Bachelor of Science in Applied Mathematics: Data Science
   </div>
 
   <div class="wordplay-image">
-    <img src="/images/tinyservpic.png" alt="tinyserv">
-  </div>
-</div>
-
-<div class="project-container">
-  <div class="project-text">
-    <div style="font-size: 20px; font-weight: bold;">
-      • Dynamic Storage Allocator
-    </div>
-    <div style="margin: 10px 0;">
-      Developed a dynamic memory allocator in C from scratch, implementing <code>malloc</code>, <code>free</code>, and heap coalescing using an explicit free list.
-    </div>
-    <div style="margin: 6px 0;">
-      <strong>Languages & Tools</strong>: C, gdb
-      <a href="https://github.com/lantinglu/CSE351-The-Hardware-Software-Interface/tree/main/lab5" style="text-decoration: none; margin-left: 8px; vertical-align: middle;">
-        <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
-      </a>
-    </div>
+    <img src="/images/tinyserv.png" alt="tinyserv">
   </div>
 </div>
 
