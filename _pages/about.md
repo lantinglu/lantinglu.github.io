@@ -125,20 +125,27 @@ Bachelor of Science in Applied Mathematics: Data Science
   </div>
 </div>
 
-<div class="project-container">
-  <div class="project-text">
+<div class="wordplay-container">
+  <div class="wordplay-text">
     <div style="font-size: 20px; font-weight: bold;">
-      • tinyserv: Exploit Analysis & Patch Development
+      • Tinyserv: Exploit Analysis & Patch Development
     </div>
     <div style="margin: 10px 0;">
       Investigated real-world exploits on a vulnerable HTTP server (<code>tinyserv</code>), performed root-cause analysis, and wrote secure patches to prevent unauthorized access to admin-only pages. Ensured functional correctness and long-term security across both normal and malicious inputs.
     </div>
-    <div style="margin: 6px 0;"> 
+    <div style="margin: 6px 0;">
       <strong>Languages & Tools</strong>: C, gdb, curl, HTTP
-      <a href="https://github.com/lantinglu/tinyserv" style="text-decoration: none; margin-left: 8px; vertical-align: middle;">
+    </div>
+    <div style="margin-top: 10px;">
+      <a href="https://github.com/lantinglu/tinyserv" style="text-decoration: none; margin-right: 8px;">
         <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
       </a>
-    </div> 
+    </div>
+  </div>
+
+  <div class="wordplay-image">
+    <img src="/images/tinyserv.png" alt="tinyserv">
+  </div>
 </div>
 
 <div class="project-container">
