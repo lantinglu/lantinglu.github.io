@@ -73,6 +73,13 @@ Bachelor of Science in Applied Mathematics: Data Science
       width: 100%;
     }
   }
+
+  hr.project-divider {
+    border: 0;
+    height: 1px;
+    background-color: #e5e5e5;
+    margin: 2rem 0;
+  }
 </style>
 
 <div class="wordplay-container">
@@ -98,36 +105,35 @@ Bachelor of Science in Applied Mathematics: Data Science
       </a>
     </div>
   </div>
-
   <div class="wordplay-image">
     <img src="/images/wordplay.png" alt="wordplay">
   </div>
 </div>
+
+<hr class="project-divider">
 
 <div class="wordplay-container">
   <div class="wordplay-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Vaccine Reservation System
     </div>
-    <div style="margin: 4px 0; font-style: italic;">
-    </div>
     <div style="margin: 10px 0;">
       Designed and implemented a vaccine appointment scheduling system that allows users to create accounts, log in, check caregiver schedules, and reserve appointments through a terminal interface. Developed secure login with password hashing and salting, modeled patients and caregivers, and managed vaccine stock using SQL. Connected the system to a Microsoft Azure SQL database via JDBC.
     </div>
     <div style="margin: 6px 0;">
       <strong>Languages & Tools</strong>: 
-      <span>Java, SQL, JDBC, Microsoft Azure</span>
+      Java, SQL, JDBC, Microsoft Azure
       <a href="https://github.com/lantinglu/COVID-19-Vaccine-Reservation-System" style="text-decoration: none; margin-left: 8px; vertical-align: middle;">
         <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
       </a>
     </div>
   </div>
-
   <div class="wordplay-image">
     <img src="/images/vaccine.png" alt="Vaccine Reservation System">
   </div>
 </div>
 
+<hr class="project-divider">
 
 <div class="wordplay-container">
   <div class="wordplay-text">
@@ -146,11 +152,12 @@ Bachelor of Science in Applied Mathematics: Data Science
       </a>
     </div>
   </div>
-
   <div class="wordplay-image">
     <img src="/images/tinyserv.png" alt="tinyserv">
   </div>
 </div>
+
+<hr class="project-divider">
 
 <div class="wordplay-container">
   <div class="wordplay-text">
