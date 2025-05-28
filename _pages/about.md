@@ -57,7 +57,6 @@ Bachelor of Science in Applied Mathematics: Data Science
 
   .wordplay-image img {
     width: 100%;
-    border-radius: 6px;
   }
 
   @media (max-width: 768px) {
@@ -101,12 +100,12 @@ Bachelor of Science in Applied Mathematics: Data Science
   </div>
 
   <div class="wordplay-image">
-    <img src="/images/wordplay1.png" alt="wordplay">
+    <img src="/images/wordplay.png" alt="wordplay">
   </div>
 </div>
 
-<div class="project-container">
-  <div class="project-text">
+<div class="wordplay-container">
+  <div class="wordplay-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Vaccine Reservation System
     </div>
@@ -121,9 +120,14 @@ Bachelor of Science in Applied Mathematics: Data Science
       <a href="https://github.com/lantinglu/COVID-19-Vaccine-Reservation-System" style="text-decoration: none; margin-left: 8px; vertical-align: middle;">
         <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
       </a>
+    </div>
   </div>
+
+  <div class="wordplay-image">
+    <img src="/images/vaccine.png" alt="Vaccine Reservation System">
   </div>
 </div>
+
 
 <div class="wordplay-container">
   <div class="wordplay-text">
@@ -144,7 +148,7 @@ Bachelor of Science in Applied Mathematics: Data Science
   </div>
 
   <div class="wordplay-image">
-    <img src="/images/tinyserv.png" alt="tinyserv">
+    <img src="/images/tinyservpic.png" alt="tinyserv">
   </div>
 </div>
 
@@ -184,6 +188,6 @@ Bachelor of Science in Applied Mathematics: Data Science
     </div>
   </div>
   <div class="wordplay-image">
-    <img src="/images/Paddleocr.jpg" alt="PaddleOCR">
+    <img src="/images/Paddleocr.png" alt="PaddleOCR">
   </div>
 </div>
