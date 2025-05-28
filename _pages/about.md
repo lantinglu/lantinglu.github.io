@@ -145,8 +145,6 @@ Bachelor of Science in Applied Mathematics: Data Science
     </div>
     <div style="margin: 6px 0;">
       <strong>Languages & Tools</strong>: C, gdb, curl, HTTP
-    </div>
-    <div style="margin-top: 10px;">
       <a href="https://github.com/lantinglu/tinyserv" style="text-decoration: none; margin-right: 8px;">
         <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
       </a>
