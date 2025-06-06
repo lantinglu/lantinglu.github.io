@@ -109,6 +109,30 @@ Bachelor of Science in Applied Mathematics: Data Science
     <img src="/images/wordplay.png" alt="wordplay">
   </div>
 </div>
+<hr class="project-divider">
+<div class="wordplay-container">
+  <div class="wordplay-text">
+    <div style="font-size: 20px; font-weight: bold;">
+      • Optimization of Neural Style Transfer
+    </div>
+    <div style="margin: 10px 0;">
+      Built a modular Neural Style Transfer system in Python using PyTorch, inspired by 
+      <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf" target="_blank" style="text-decoration: underline;">
+        Gatys et al. (2016)
+      </a>.
+      Leveraged a pre-trained VGG-19 network to extract content and style features, computed via MSE and Gram matrices. Optimized with L-BFGS over 300–500 iterations, supporting both CPU and GPU. Evaluated VGG19 against ResNet18, and proposed improvements for mobile and web deployment.
+    </div>
+    <div style="margin: 6px 0;">
+      <strong>Languages & Tools</strong>: Python, PyTorch, Torchvision, Pillow (PIL), Matplotlib
+      <a href="https://github.com/lantinglu/style-transfer" style="text-decoration: none; margin-left: 12px;">
+        <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
+      </a>
+    </div>
+  </div>
+  <div class="wordplay-image">
+    <img src="/images/NST.png" alt="NST" style="max-width: 100%; height: auto;">
+  </div>
+</div>
 
 <hr class="project-divider">
 
