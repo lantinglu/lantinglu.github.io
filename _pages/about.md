@@ -132,7 +132,7 @@ Bachelor of Science in Applied Mathematics: Data Science
     </div>
   </div>
   <div class="wordplay-image">
-    <img src="/images/NST1.png" alt="NST" style="max-width: 500px; width: 100%; height: auto;">
+    <img src="/images/NST.png" alt="NST" style="max-width: 500px; width: 100%; height: auto;">
   </div>
 </div>
 
