@@ -155,7 +155,7 @@ Bachelor of Science in Applied Mathematics: Data Science
     </div>
   </div>
   <div class="wordplay-image">
-    <img src="/images/vaccine.png" alt="Vaccine Reservation System">
+    <img src="/images/vaccineReserv.png" alt="Vaccine Reservation System">
   </div>
 </div>
 
