@@ -26,6 +26,11 @@ Bachelor of Science in Computer Science<br>
 Bachelor of Science in Applied Mathematics: Data Science
 
 # 💼 Work Experience
+- <span style="font-size: 18px;"><strong></strong></span>, *Jun - Sep 2025*  
+  *Algorithm Engineer Intern*  
+
+- <span style="font-size: 18px;"><strong>Deloitte</strong></span>, *Jun 2025*  
+  *Project Assistant*  
 
 - <span style="font-size: 18px;"><strong>Fudan University</strong></span>, *Jun–Sep 2024*  
   *Research Assistant*  
