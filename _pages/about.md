@@ -26,15 +26,16 @@ Bachelor of Science in Computer Science<br>
 Bachelor of Science in Applied Mathematics: Data Science
 
 # 💼 Work Experience
-- <span style="font-size: 18px;"><strong></strong></span>, *Jun - Sep 2025*  
+- <span style="font-size: 18px;"><strong>iFLYTEK Co., Ltd	</strong></span>, *Jun - Sep 2025*  
   *Algorithm Engineer Intern*  
+Development and optimization of reusable pipeline scripts integrating x-vector extraction, vq-code generation, prosody analysis, PyDur-based duration modeling, and MFA-based phoneme alignment, enabling large-scale speech synthesis. Proposed and implemented a variance-based speech quality detection method, improving anomaly detection accuracy at waveform boundaries. Collaborated with team members and reported weekly progress in project meetings.
 
 - <span style="font-size: 18px;"><strong>Deloitte</strong></span>, *Jun 2025*  
   *Project Assistant*  
 
 - <span style="font-size: 18px;"><strong>Fudan University</strong></span>, *Jun–Sep 2024*  
   *Research Assistant*  
-  - Professor Wei Wang's team participation, literature search, pollutant information extraction OCR research, model analysis, program design, project work report under the guidance of the professor
+  - Professor Wei Wang's team participation, literature search, pollutant information extraction OCR research, model analysis, program design, project work report under the guidance of the professor.
 
 - <span style="font-size: 18px;"><strong>Shanghai Chengdian Fuzhi Technology Co., Ltd.</strong></span>, *Jun–Sep 2023*  
   *Project Assistant*  
