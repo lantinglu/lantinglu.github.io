@@ -85,7 +85,7 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
   }
 </style>
 
-<div class="nightmode-container">
+<div class="wordplay-container">
   <div class="wordplay-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Wordplay: An Interactive Programming Language for Multilingual and Inclusive Expression
@@ -113,8 +113,8 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
   </div>
 </div>
 <hr class="project-divider">
-<div class="wordplay-container">
-  <div class="wordplay-text">
+<div class="NST-container">
+  <div class="NST-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Optimization of Neural Style Transfer
     </div>
@@ -134,15 +134,15 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
       </a>
     </div>
   </div>
-  <div class="wordplay-image">
+  <div class="NST-image">
     <img src="/images/NST.png" alt="NST" style="max-width: 500px; width: 100%; height: auto;">
   </div>
 </div>
 
 <hr class="project-divider">
 
-<div class="wordplay-container"> 
-  <div class="wordplay-text">
+<div class="greenmode-container"> 
+  <div class="greenmode-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Eye Protection Mode Assistant
     </div>
@@ -162,15 +162,15 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
     </div>
   </div>
 
-  <div class="wordplay-image">
-    <img src="https://github.com/user-attachments/assets/3ac5d73a-629e-444e-b863-f77d858450fb" 
+  <div class="greenmode-image">
+    <img src="/images/Green-mode.GIF" 
          alt="green-nightmode-demo" 
          style="max-width: 500px; width: 100%; height: auto;">
   </div>
 </div>
 
-<div class="wordplay-container">
-  <div class="wordplay-text">
+<div class="vaccine-container">
+  <div class="vaccine-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Vaccine Reservation System
     </div>
@@ -185,15 +185,15 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
       </a>
     </div>
   </div>
-  <div class="wordplay-image">
+  <div class="vaccine-image">
     <img src="/images/vaccineReserv.png" alt="Vaccine Reservation System">
   </div>
 </div>
 
 <hr class="project-divider">
 
-<div class="wordplay-container">
-  <div class="wordplay-text">
+<div class="tinyserv-container">
+  <div class="tinyserv-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Tinyserv: Exploit Analysis & Patch Development
     </div>
@@ -207,7 +207,7 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
       </a>
     </div>
   </div>
-  <div class="wordplay-image">
+  <div class="tinyserv-image">
     <img src="/images/tinyserv.png" alt="tinyserv">
   </div>
 </div>
