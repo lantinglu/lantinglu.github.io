@@ -40,39 +40,39 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
 
 # 🏅 Projects
 <style>
-  .wordplay-container {
+  .project-container {
     display: flex;
     align-items: flex-start;
     margin-bottom: 20px;
     flex-wrap: wrap;
   }
 
-  .wordplay-text {
+  .project-text {
     flex: 1;
     margin-right: 20px;
     min-width: 280px;
   }
 
-  .wordplay-image {
+  .project-image {
     width: 400px;
     flex-shrink: 0;
   }
 
-  .wordplay-image img {
+  .project-image img {
     width: 100%;
   }
 
   @media (max-width: 768px) {
-    .wordplay-container {
+    .project-container {
       flex-direction: column;
     }
 
-    .wordplay-text {
+    .project-text {
       margin-right: 0;
       margin-bottom: 16px;
     }
 
-    .wordplay-image {
+    .project-image {
       width: 100%;
     }
   }
@@ -85,8 +85,8 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
   }
 </style>
 
-<div class="wordplay-container">
-  <div class="wordplay-text">
+<div class="project-container">
+  <div class="project-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Wordplay: An Interactive Programming Language for Multilingual and Inclusive Expression
     </div>
@@ -108,13 +108,13 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
       </a>
     </div>
   </div>
-  <div class="wordplay-image">
+  <div class="project-image">
     <img src="/images/wordplay.png" alt="wordplay">
   </div>
 </div>
 <hr class="project-divider">
-<div class="wordplay-container">
-  <div class="wordplay-text">
+<div class="project-container">
+  <div class="project-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Optimization of Neural Style Transfer
     </div>
@@ -134,14 +134,14 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
       </a>
     </div>
   </div>
-  <div class="wordplay-image">
+  <div class="project-image">
     <img src="/images/NST.png" alt="NST" style="max-width: 500px; width: 100%; height: auto;">
   </div>
 </div>
 
 <hr class="project-divider">
-<div class="wordplay-container">
-  <div class="wordplay-text">
+<div class="project-container">
+  <div class="project-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Eye Protection Mode Assistant
     </div>
@@ -160,15 +160,15 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
       </a>
     </div>
   </div>
-  <div class="wordplay-image">
-    <img src="/images/Green-mode.GIF" alt="Green-mode" style="max-width: 500px; width: 80%; height: auto;">
+  <div class="project-image">
+    <img src="/images/Green-mode.GIF" alt="Green-mode" style="max-width: 500px; width: 100%; height: auto;">
   </div>
 </div>
 
 <hr class="project-divider">
 
-<div class="wordplay-container">
-  <div class="wordplay-text">
+<div class="project-container">
+  <div class="project-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Vaccine Reservation System
     </div>
@@ -183,15 +183,15 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
       </a>
     </div>
   </div>
-  <div class="wordplay-image">
+  <div class="project-image">
     <img src="/images/vaccineReserv.png" alt="Vaccine Reservation System">
   </div>
 </div>
 
 <hr class="project-divider">
 
-<div class="wordplay-container">
-  <div class="wordplay-text">
+<div class="project-container">
+  <div class="project-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Tinyserv: Exploit Analysis & Patch Development
     </div>
@@ -205,15 +205,15 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
       </a>
     </div>
   </div>
-  <div class="wordplay-image">
+  <div class="project-image">
     <img src="/images/tinyserv.png" alt="tinyserv">
   </div>
 </div>
 
 <hr class="project-divider">
 
-<div class="wordplay-container">
-  <div class="wordplay-text">
+<div class="project-container">
+  <div class="project-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Pollutant Information Extraction with OCR
     </div>
@@ -230,7 +230,7 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
       </a>
     </div>
   </div>
-  <div class="wordplay-image">
+  <div class="project-image">
     <img src="/images/Paddleocr.png" alt="PaddleOCR">
   </div>
 </div>
