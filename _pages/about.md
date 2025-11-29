@@ -159,6 +159,10 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
       <a href="https://github.com/lantinglu/green-nightmode" style="text-decoration: none;">
         <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
       </a>
+      <a href="https://greasyfork.org/zh-CN/scripts/538046-%E6%8A%A4%E7%9C%BC%E6%A8%A1%E5%BC%8F%E5%8A%A9%E6%89%8B-%E5%8F%AF%E8%B0%83%E8%8A%82%E5%BC%BA%E5%BA%A6-%E5%BC%80%E5%85%B3%E6%8C%89%E9%92%AE-%E8%89%B2%E5%BD%A9%E6%94%AF%E6%8C%81"
+      target="_blank" style="text-decoration: none;">
+      <img src="https://img.shields.io/badge/GreasyFork-red?logo=greasyfork&style=flat" alt="GreasyFork">
+      </a>
     </div>
   </div>
   <div class="project-image">
