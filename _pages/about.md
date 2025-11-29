@@ -85,7 +85,7 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
   }
 </style>
 
-<div class="project-container">
+<div class="project-container"> <!-- Wordplay -->
   <div class="project-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Wordplay: An Interactive Programming Language for Multilingual and Inclusive Expression
@@ -113,7 +113,8 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
   </div>
 </div>
 <hr class="project-divider">
-<div class="project-container">
+
+<div class="project-container"> <!-- Style Transfer -->
   <div class="project-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Optimization of Neural Style Transfer
@@ -138,9 +139,9 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
     <img src="/images/NST.png" alt="NST" style="max-width: 500px; width: 100%; height: auto;">
   </div>
 </div>
-
 <hr class="project-divider">
-<div class="project-container">
+
+<div class="project-container"> <!-- Green mode -->
   <div class="project-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Eye Protection Mode Assistant
@@ -164,10 +165,9 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
     <img src="/images/Green-mode.GIF" alt="Green-mode" style="max-width: 500px; width: 100%; height: auto;">
   </div>
 </div>
-
 <hr class="project-divider">
 
-<div class="project-container">
+<div class="project-container"> <!-- Vaccine -->
   <div class="project-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Vaccine Reservation System
@@ -187,10 +187,9 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
     <img src="/images/vaccineReserv.png" alt="Vaccine Reservation System">
   </div>
 </div>
-
 <hr class="project-divider">
 
-<div class="project-container">
+<div class="project-container"> <!-- Tinyserv -->
   <div class="project-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Tinyserv: Exploit Analysis & Patch Development
@@ -209,10 +208,9 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
     <img src="/images/tinyserv.png" alt="tinyserv">
   </div>
 </div>
-
 <hr class="project-divider">
 
-<div class="project-container">
+<div class="project-container"> <!-- PaddleOCR -->
   <div class="project-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Pollutant Information Extraction with OCR
