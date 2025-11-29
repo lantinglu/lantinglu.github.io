@@ -113,8 +113,8 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
   </div>
 </div>
 <hr class="project-divider">
-<div class="NST-container">
-  <div class="NST-text">
+<div class="wordplay-container">
+  <div class="wordplay-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Optimization of Neural Style Transfer
     </div>
@@ -134,15 +134,14 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
       </a>
     </div>
   </div>
-  <div class="NST-image">
+  <div class="wordplay-image">
     <img src="/images/NST.png" alt="NST" style="max-width: 500px; width: 100%; height: auto;">
   </div>
 </div>
 
 <hr class="project-divider">
-
-<div class="greenmode-container"> 
-  <div class="greenmode-text">
+<div class="wordplay-container">
+  <div class="wordplay-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Eye Protection Mode Assistant
     </div>
@@ -155,22 +154,21 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
     <div style="margin: 6px 0;">
       <strong>Languages & Tools</strong>: JavaScript, DOM APIs, CSS, Tampermonkey
     </div>
-    <div style="margin-top: 10px;">
-      <a href="https://github.com/lantinglu/green-nightmode" style="text-decoration: none; margin-right: 8px;">
-        <img src="https://img.shields.io/badge/-GitHub-black?logo=github&style=flat" alt="GitHub">
+    <div style="margin: 6px 0;">
+      <a href="https://github.com/lantinglu/green-nightmode" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
       </a>
     </div>
   </div>
-
-  <div class="greenmode-image">
-    <img src="/images/Green-mode.GIF" 
-         alt="green-nightmode-demo" 
-         style="max-width: 500px; width: 100%; height: auto;">
+  <div class="wordplay-image">
+    <img src="/images/Green-mode.GIF" alt="Green-mode" style="max-width: 500px; width: 80%; height: auto;">
   </div>
 </div>
 
-<div class="vaccine-container">
-  <div class="vaccine-text">
+<hr class="project-divider">
+
+<div class="wordplay-container">
+  <div class="wordplay-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Vaccine Reservation System
     </div>
@@ -185,15 +183,15 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
       </a>
     </div>
   </div>
-  <div class="vaccine-image">
+  <div class="wordplay-image">
     <img src="/images/vaccineReserv.png" alt="Vaccine Reservation System">
   </div>
 </div>
 
 <hr class="project-divider">
 
-<div class="tinyserv-container">
-  <div class="tinyserv-text">
+<div class="wordplay-container">
+  <div class="wordplay-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Tinyserv: Exploit Analysis & Patch Development
     </div>
@@ -207,7 +205,7 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
       </a>
     </div>
   </div>
-  <div class="tinyserv-image">
+  <div class="wordplay-image">
     <img src="/images/tinyserv.png" alt="tinyserv">
   </div>
 </div>
