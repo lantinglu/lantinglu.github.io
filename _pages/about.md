@@ -85,7 +85,7 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
   }
 </style>
 
-<div class="wordplay-container">
+<div class="nightmode-container">
   <div class="wordplay-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Wordplay: An Interactive Programming Language for Multilingual and Inclusive Expression
@@ -140,6 +140,34 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
 </div>
 
 <hr class="project-divider">
+
+<div class="wordplay-container"> 
+  <div class="wordplay-text">
+    <div style="font-size: 20px; font-weight: bold;">
+      • Eye Protection Mode Assistant
+    </div>
+    <div style="margin: 10px 0;">
+      Developed a lightweight, browser-wide eye protection mode using Tampermonkey. 
+      Implemented a dynamic green light-filter overlay with intensity control via mouse wheel, a floating toggle button, and auto-saved preferences for persistent user experience. 
+      Designed to work on nearly all websites while preserving page color hierarchy for better readability. 
+      Provided bilingual documentation (EN/CN) and maintained the project through iterative updates.
+    </div>
+    <div style="margin: 6px 0;">
+      <strong>Languages & Tools</strong>: JavaScript, DOM APIs, CSS, Tampermonkey
+    </div>
+    <div style="margin-top: 10px;">
+      <a href="https://github.com/lantinglu/green-nightmode" style="text-decoration: none; margin-right: 8px;">
+        <img src="https://img.shields.io/badge/-GitHub-black?logo=github&style=flat" alt="GitHub">
+      </a>
+    </div>
+  </div>
+
+  <div class="wordplay-image">
+    <img src="https://github.com/user-attachments/assets/3ac5d73a-629e-444e-b863-f77d858450fb" 
+         alt="green-nightmode-demo" 
+         style="max-width: 500px; width: 100%; height: auto;">
+  </div>
+</div>
 
 <div class="wordplay-container">
   <div class="wordplay-text">
