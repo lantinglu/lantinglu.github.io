@@ -136,7 +136,7 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
     </div>
     <div style="margin-top: 10px;">
       <a href="https://github.com/lantinglu/Multilingual-Character-Level-Language-Prediction-Model" style="text-decoration: none;">
-        <img src="https://img.shields.io/badge/-GitHub-black?logo=github&style=flat" alt="Code">
+        <img src="https://img.shields.io/badge/-GitHub-black?logo=github&style=flat" alt="Github">
       </a>
     </div>
   </div>
