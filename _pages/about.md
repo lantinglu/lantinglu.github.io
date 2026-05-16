@@ -18,12 +18,15 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # About
-I am an undergraduate student at the University of Washington, double majoring in Computer Science and Applied Mathematics.
+I am an incoming Master of Science in Computer Science student at the University of Illinois Urbana-Champaign, with an undergraduate background in Computer Science and Applied Mathematics from the University of Washington.
 
 # 📖 Educations
--  **University of Washington**, 2022.09 - 2026.06 (expected)<br>
+-  **University of Washington**, 2022.09 - 2026.06<br>
 Bachelor of Science in Computer Science<br>
 Bachelor of Science in Applied Mathematics: Data Science
+
+- **University of Illinois Urbana-Champaign**, 2026.09 - 2028.06 (expected)<br>
+Master of Science in Computer Science<br>
 
 # 💼 Work Experience
 - <span style="font-size: 18px;"><strong>iFLYTEK Co., Ltd	</strong></span>, *Jun - Sep 2025*  
@@ -110,6 +113,35 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
   </div>
   <div class="project-image">
     <img src="/images/wordplay.png" alt="wordplay">
+  </div>
+</div>
+<hr class="project-divider">
+
+<div class="project-container"> <!-- Multilingual Character-Level Language Prediction Model -->
+  <div class="project-text">
+    <div style="font-size: 20px; font-weight: bold;">
+      • Multilingual Character-Level Language Model for Next-Character Prediction
+    </div>
+    <div style="margin: 4px 0; font-style: italic;">
+      Multilingual NLP & Language Modeling Project
+    </div>
+    <div style="margin: 10px 0;">
+      Developed a multilingual character-level language prediction model for next-character prediction under low-resource and noisy text scenarios. Proposed a hybrid framework combining a character-level Transformer with a statistical N-gram language model, using weighted score fusion to improve prediction robustness and stability across multilingual inputs.
+    </div>
+    <div style="margin: 10px 0;">
+      Implemented an end-to-end training and inference pipeline with AdamW optimization and a cosine annealing learning rate schedule with warmup, improving training stability and convergence efficiency. Processed multilingual datasets and evaluated model performance through prediction accuracy and experimental comparison.
+    </div>
+    <div style="margin: 6px 0;">
+      <strong>Languages & Tools</strong>: Python, PyTorch, NumPy, Pandas, Transformer, N-gram Language Model
+    </div>
+    <div style="margin-top: 10px;">
+      <a href="https://github.com/lantinglu/Multilingual-Character-Level-Language-Prediction-Model" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/-GitHub-black?logo=github&style=flat" alt="GitHub">
+      </a>
+    </div>
+  </div>
+  <div class="project-image">
+    <img src="/images/multilingual-character.png" alt="multilingual character-level language prediction model">
   </div>
 </div>
 <hr class="project-divider">
