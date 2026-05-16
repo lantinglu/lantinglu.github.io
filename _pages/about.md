@@ -132,7 +132,7 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
       Implemented an end-to-end training and inference pipeline with AdamW optimization and a cosine annealing learning rate schedule with warmup, improving training stability and convergence efficiency. Processed multilingual datasets and evaluated model performance through prediction accuracy and experimental comparison.
     </div>
     <div style="margin: 6px 0;">
-      <strong>Languages & Tools</strong>: Python, PyTorch, NumPy, Pandas, Transformer, N-gram Language Model
+      <strong>Languages & Tools</strong>: Python, PyTorch, Transformer
     </div>
     <div style="margin-top: 10px;">
       <a href="https://github.com/lantinglu/Multilingual-Character-Level-Language-Prediction-Model" style="text-decoration: none;">
