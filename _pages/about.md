@@ -24,7 +24,7 @@ I am an incoming Master of Computer Science student at the University of Illinoi
 -  **University of Washington**, 2022.09 - 2026.03<br>
 Bachelor of Science in Applied Mathematics: Data Science & Computer Science
 
-- **University of Illinois Urbana-Champaign**, 2026.09 - 2028.06 (expected)<br>
+- **University of Illinois Urbana-Champaign**, 2026.08 - 2028.05 (expected)<br>
 Master of Computer Science<br>
 
 # 💼 Work Experience
