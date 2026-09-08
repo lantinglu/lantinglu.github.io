@@ -18,16 +18,24 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # About
-I am an incoming Master of Computer Science student at the University of Illinois Urbana-Champaign, with an undergraduate background in Applied Mathematics and Computer Science from the University of Washington.
+I am an incoming Master of Science in Computer Science student at the University of Illinois Urbana-Champaign, with an undergraduate background in Computer Science and Applied Mathematics from the University of Washington.
 
 # 📖 Educations
--  **University of Washington**, 2022.09 - 2026.03<br>
-Bachelor of Science in Applied Mathematics: Data Science & Computer Science
+-  **University of Washington**, 2022.09 - 2026.06<br>
+Bachelor of Science in Computer Science<br>
+Bachelor of Science in Applied Mathematics: Data Science
 
-- **University of Illinois Urbana-Champaign**, 2026.08 - 2028.05 (expected)<br>
-Master of Computer Science<br>
+- **University of Illinois Urbana-Champaign**, 2026.09 - 2028.06 (expected)<br>
+Master of Science in Computer Science<br>
 
 # 💼 Work Experience
+- <span style="font-size: 18px;"><strong>iFLYTEK Co., Ltd	</strong></span>, *Jun - Sep 2025*  
+  *Algorithm Engineer Intern*  
+Development and optimization of reusable pipeline scripts integrating x-vector extraction, vq-code generation, prosody analysis, PyDur-based duration modeling, and MFA-based phoneme alignment, enabling large-scale speech synthesis. Proposed and implemented a variance-based speech quality detection method, improving anomaly detection accuracy at waveform boundaries. Collaborated with team members and reported weekly progress in project meetings.
+
+- <span style="font-size: 18px;"><strong>Fudan University</strong></span>, *Jun–Sep 2024*  
+  *Research Assistant*  
+  - Professor Wei Wang's team participation, literature search, pollutant information extraction OCR research, model analysis, program design, project work report under the guidance of the professor.
 
 - <span style="font-size: 18px;"><strong>Shanghai Chengdian Fuzhi Technology Co., Ltd.</strong></span>, *Jun–Sep 2023*  
   *Project Assistant*  
@@ -128,7 +136,7 @@ Master of Computer Science<br>
     </div>
     <div style="margin-top: 10px;">
       <a href="https://github.com/lantinglu/Multilingual-Character-Level-Language-Prediction-Model" style="text-decoration: none;">
-        <img src="https://img.shields.io/badge/-GitHub-black?logo=github&style=flat" alt="GitHub">
+        <img src="https://img.shields.io/badge/-GitHub-black?logo=github&style=flat" alt="Code">
       </a>
     </div>
   </div>
@@ -179,6 +187,15 @@ Master of Computer Science<br>
     <div style="margin: 6px 0;">
       <strong>Languages & Tools</strong>: JavaScript, DOM APIs, CSS, Tampermonkey
     </div>
+    <div style="margin: 6px 0;">
+      <a href="https://github.com/lantinglu/green-nightmode" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
+      </a>
+      <a href="https://greasyfork.org/zh-CN/scripts/538046-%E6%8A%A4%E7%9C%BC%E6%A8%A1%E5%BC%8F%E5%8A%A9%E6%89%8B-%E5%8F%AF%E8%B0%83%E8%8A%82%E5%BC%BA%E5%BA%A6-%E5%BC%80%E5%85%B3%E6%8C%89%E9%92%AE-%E8%89%B2%E5%BD%A9%E6%94%AF%E6%8C%81"
+      target="_blank" style="text-decoration: none;">
+      <img src="https://img.shields.io/badge/GreasyFork-red?logo=greasyfork&style=flat" alt="GreasyFork">
+      </a>
+    </div>
   </div>
   <div class="project-image">
     <img src="/images/Green-mode.GIF" alt="Green-mode" style="max-width: 500px; width: 100%; height: auto;">
@@ -194,9 +211,37 @@ Master of Computer Science<br>
     <div style="margin: 10px 0;">
       Designed and implemented a vaccine appointment scheduling system that allows users to create accounts, log in, check caregiver schedules, and reserve appointments through a terminal interface. Developed secure login with password hashing and salting, modeled patients and caregivers, and managed vaccine stock using SQL. Connected the system to a Microsoft Azure SQL database via JDBC.
     </div>
+    <div style="margin: 6px 0;">
+      <strong>Languages & Tools</strong>: 
+      Java, SQL, JDBC, Microsoft Azure
+      <a href="https://github.com/lantinglu/COVID-19-Vaccine-Reservation-System" style="text-decoration: none; margin-left: 8px; vertical-align: middle;">
+        <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
+      </a>
+    </div>
   </div>
   <div class="project-image">
     <img src="/images/vaccineReserv.png" alt="Vaccine Reservation System">
+  </div>
+</div>
+<hr class="project-divider">
+
+<div class="project-container"> <!-- Tinyserv -->
+  <div class="project-text">
+    <div style="font-size: 20px; font-weight: bold;">
+      • Tinyserv: Exploit Analysis & Patch Development
+    </div>
+    <div style="margin: 10px 0;">
+      Investigated real-world exploits on a vulnerable HTTP server (<code>tinyserv</code>), performed root-cause analysis, and wrote secure patches to prevent unauthorized access to admin-only pages. Ensured functional correctness and long-term security across both normal and malicious inputs.
+    </div>
+    <div style="margin: 6px 0;">
+      <strong>Languages & Tools</strong>: C, gdb, curl, HTTP
+      <a href="https://github.com/lantinglu/tinyserv" style="text-decoration: none; margin-right: 8px;">
+        <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
+      </a>
+    </div>
+  </div>
+  <div class="project-image">
+    <img src="/images/tinyserv.png" alt="tinyserv">
   </div>
 </div>
 <hr class="project-divider">
@@ -211,6 +256,12 @@ Master of Computer Science<br>
     </div>
     <div style="margin: 10px 0;">
       Extracting environmental pollutant information from industrial environmental assessment PDFs using PaddleOCR.
+    </div>
+    <div style="margin: 6px 0;">
+      <strong>Languages & Tools</strong>: Python
+      <a href="https://github.com/lantinglu/PaddleOCR-pollution" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
+      </a>
     </div>
   </div>
   <div class="project-image">
