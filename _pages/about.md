@@ -33,12 +33,13 @@ Bachelor of Science in Applied Mathematics: Data Science
 # 💼 Work Experience
 - <span style="font-size: 18px;"><strong>United Automotive Electronic Systems (UAES)</strong></span>, *Jun - Aug 2026*<br>
   *Algorithm Engineer Intern*<br>
-Developed an automated evaluation pipeline with OmniDocBench to benchmark enterprise document parsing systems built with PaddleOCR-VL and MinerU in Dockerized environments. Built a semantic data-selection pipeline for internal enterprise documents by extracting chunk-level embeddings, measuring pairwise cosine distances, and aggregating them into document-level average-distance scores.
+- Developed an automated evaluation pipeline with OmniDocBench to benchmark enterprise document parsing systems built with PaddleOCR-VL and MinerU in Dockerized environments. Built a semantic data-selection pipeline for internal enterprise documents by extracting chunk-level embeddings, measuring pairwise cosine distances, and aggregating them into document-level average-distance scores.
+
 Applied HDBSCAN to group documents into semantic clusters and selected representative samples using a minimum-subset strategy that maximized semantic feature coverage, while filtering out unsuitable and redundant documents. Integrated selected samples with Label Studio for annotation and model iteration, improving the document parsing evaluation score from **86.86 to 91.72**.
 
 - <span style="font-size: 18px;"><strong>iFLYTEK Co., Ltd	</strong></span>, *Jun - Sep 2025*  
   *Algorithm Engineer Intern*  
-Development and optimization of reusable pipeline scripts integrating x-vector extraction, vq-code generation, prosody analysis, PyDur-based duration modeling, and MFA-based phoneme alignment, enabling large-scale speech synthesis. Proposed and implemented a variance-based speech quality detection method, improving anomaly detection accuracy at waveform boundaries. Collaborated with team members and reported weekly progress in project meetings.
+- Development and optimization of reusable pipeline scripts integrating x-vector extraction, vq-code generation, prosody analysis, PyDur-based duration modeling, and MFA-based phoneme alignment, enabling large-scale speech synthesis. Proposed and implemented a variance-based speech quality detection method, improving anomaly detection accuracy at waveform boundaries. Collaborated with team members and reported weekly progress in project meetings.
 
 - <span style="font-size: 18px;"><strong>Fudan University</strong></span>, *Jun–Sep 2024*  
   *Research Assistant*  
@@ -92,126 +93,22 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
     }
   }
 
-  .yolo-pipeline {
-    display: block;
-    box-sizing: border-box;
-    max-width: 100%;
-    margin: 0;
-    padding: 18px;
-    border: 1px solid #dce5ee;
-    border-radius: 14px;
-    background: #f7fafc;
-    color: #26374a;
-    text-align: center;
-    font-size: 13px;
-    line-height: 1.5;
-  }
-
-  .yolo-pipeline .pipeline-title {
-    margin-bottom: 14px;
-    font-size: 15px;
-    font-weight: 700;
-  }
-
-  .yolo-pipeline .pipeline-branches {
+  .yolo-results {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: minmax(0, 1fr) 32px minmax(0, 1fr);
+    align-items: center;
     gap: 12px;
+    width: 100%;
+    max-width: 760px;
+    margin: 16px auto 0;
   }
-
-  .yolo-pipeline .pipeline-branches > div {
-    display: grid;
-    grid-template-rows: auto 30px 1fr;
-    min-width: 0;
-  }
-
-  .yolo-pipeline .pipeline-merge {
-    position: relative;
-    height: 22px;
-    margin: 0 25%;
-    border-right: 1px solid #637e99;
-    border-bottom: 1px solid #637e99;
-    border-left: 1px solid #637e99;
-  }
-
-  .yolo-pipeline .pipeline-merge::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    height: 16px;
-    border-left: 1px solid #637e99;
-  }
-
-  .yolo-pipeline .pipeline-merge + .pipeline-arrow {
-    position: relative;
-    height: 24px;
-    padding: 0;
-    font-size: 0;
-  }
-
-  .yolo-pipeline .pipeline-merge + .pipeline-arrow::after {
-    content: "";
-    position: absolute;
-    top: 10px;
-    left: calc(50% - 4px);
-    width: 7px;
-    height: 7px;
-    border-right: 1px solid #637e99;
-    border-bottom: 1px solid #637e99;
-    transform: rotate(45deg);
-  }
-
-  .yolo-pipeline .pipeline-node {
-    padding: 10px 6px;
-    border: 1px solid #cfdeec;
-    border-radius: 8px;
-    background: #fff;
-  }
-
-  .yolo-pipeline .pipeline-node strong,
-  .yolo-pipeline .pipeline-node span {
-    display: block;
-  }
-
-  .yolo-pipeline .pipeline-node span {
-    margin-top: 3px;
-    font-size: 11px;
-    color: #526579;
-  }
-
-  .yolo-pipeline .pipeline-arrow {
-    padding: 3px 0;
-    color: #637e99;
-    font-size: 20px;
-    line-height: 1.2;
-  }
-
-  .yolo-pipeline .pipeline-fusion {
-    background: #eaf2fa;
-    border-color: #b9cfe3;
-  }
-
-  .yolo-pipeline .pipeline-output {
-    display: block;
-    margin-top: 10px;
-  }
-
-  .yolo-pipeline .pipeline-output img {
-    display: block;
-    margin: 0;
-    border-radius: 6px;
-    height: auto;
-  }
-
-  .yolo-pipeline figcaption {
-    margin-top: 10px;
-    font-size: 11px;
-    color: #526579;
-  }
-
-  .yolo-pipeline .pipeline-links {
-    margin-top: 6px;
+  .yolo-results img { display: block; width: 100%; height: auto; }
+  .yolo-result { min-width: 0; text-align: center; }
+  .yolo-result p { margin: 8px 0 0; font-size: 12px; }
+  .yolo-result-arrow { text-align: center; font-size: 28px; color: #637e99; }
+  @media (max-width: 540px) {
+    .yolo-results { grid-template-columns: minmax(0, 1fr); max-width: 360px; }
+    .yolo-result-arrow { transform: rotate(90deg); }
   }
 
   hr.project-divider {
@@ -333,34 +230,18 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
       Optimized dataset management and the training pipeline. Trained on 5,000 images and evaluated on 500 test images from a COCO subset, achieving <strong>0.6128 mAP@50</strong>, compared with <strong>0.5453 for the YOLOv8s baseline</strong>.
     </div>
   </div>
-  <figure class="project-image project-image-compact yolo-pipeline" aria-label="Simplified text-guided object detection workflow and example output">
-    <div class="pipeline-title">Text-Guided Object Detection</div>
-    <div class="pipeline-branches">
-      <div>
-        <div class="pipeline-node"><strong>Input image</strong><span>Visual branch</span></div>
-        <div class="pipeline-arrow" aria-hidden="true">&#8595;</div>
-        <div class="pipeline-node"><strong>YOLOv8 backbone</strong><span>Multi-scale C3 / C4 / C5 features</span></div>
-      </div>
-      <div>
-        <div class="pipeline-node"><strong>Text prompts</strong><span>Object categories</span></div>
-        <div class="pipeline-arrow" aria-hidden="true">&#8595;</div>
-        <div class="pipeline-node"><strong>CLIP Text Encoder</strong><span>Text embeddings</span></div>
-      </div>
-    </div>
-    <div class="pipeline-merge" aria-hidden="true"></div>
-    <div class="pipeline-arrow" aria-hidden="true">&#8595;</div>
-    <div class="pipeline-node pipeline-fusion"><strong>Vision-Language Fusion</strong><span>Text Adapter + RepVL-PAN</span></div>
-    <div class="pipeline-arrow" aria-hidden="true">&#8595;</div>
-    <div class="pipeline-node"><strong>Detection &amp; confidence filtering</strong><span>Bounding boxes &middot; threshold &gt; 0.25</span></div>
-    <div class="pipeline-arrow" aria-hidden="true">&#8595;</div>
-    <div><strong>Output / Ground-Truth Comparison</strong></div>
-    <a class="pipeline-output" href="{{ '/images/yolo-world-overlay.jpg' | relative_url }}">
-      <img src="{{ '/images/yolo-world-overlay.jpg' | relative_url }}" alt="Surfing scene with two predicted boxes in red and ground-truth boxes in green; prediction confidence scores are 0.97 and 0.90." width="944" height="966" loading="lazy">
+  <div class="yolo-results" aria-label="Detection workflow on the left and example output on the right">
+    <a href="{{ '/images/yolo-workflow.svg' | relative_url }}" target="_blank" rel="noopener" title="Open full-size workflow">
+      <img src="{{ '/images/yolo-workflow.svg' | relative_url }}" alt="Image and text branches merge into vision-language fusion, followed by detection and confidence filtering" width="600" height="600" loading="lazy">
     </a>
-    <figcaption>
-      Detection results &mdash; Ground truth (green), predictions (red).
-    </figcaption>
-  </figure>
+    <div class="yolo-result-arrow" aria-hidden="true">&#8594;</div>
+    <div class="yolo-result">
+      <a href="{{ '/images/yolo-world-overlay.jpg' | relative_url }}" target="_blank" rel="noopener" title="Open full-size output">
+        <img src="{{ '/images/yolo-world-overlay.jpg' | relative_url }}" alt="Output: surfer and surfboard detections, with ground truth in green and predictions in red" width="944" height="966" loading="lazy">
+      </a>
+      <p>Output &mdash; Ground truth (green), predictions (red).</p>
+    </div>
+  </div>
 </div>
 <hr class="project-divider">
 
