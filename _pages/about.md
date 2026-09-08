@@ -22,22 +22,27 @@ I am pursuing a master’s degree in Computer Science at the University of Illin
 
 I am currently open to internship opportunities across software engineering, machine learning, and related fields.
 
-# 📖 Educations
+# 📖 Education
+- **University of Illinois Urbana-Champaign**, 2026.09 - 2028.06 (expected)<br>
+Master of Science in Computer Science<br>
+
 -  **University of Washington**, 2022.09 - 2026.03<br>
 Bachelor of Science in Computer Science<br>
 Bachelor of Science in Applied Mathematics: Data Science
 
-- **University of Illinois Urbana-Champaign**, 2026.09 - 2028.06 (expected)<br>
-Master of Science in Computer Science<br>
-
 # 💼 Work Experience
+- <span style="font-size: 18px;"><strong>United Automotive Electronic Systems (UAES)</strong></span>, *Jun - Aug 2026*<br>
+  *Algorithm Engineer Intern*<br>
+Developed an automated evaluation pipeline with OmniDocBench to benchmark enterprise document parsing systems built with PaddleOCR-VL and MinerU in Dockerized environments. Built a semantic data-selection pipeline for internal enterprise documents by extracting chunk-level embeddings, measuring pairwise cosine distances, and aggregating them into document-level average-distance scores.
+Applied HDBSCAN to group documents into semantic clusters and selected representative samples using a minimum-subset strategy that maximized semantic feature coverage, while filtering out unsuitable and redundant documents. Integrated selected samples with Label Studio for annotation and model iteration, improving the document parsing evaluation score from **86.86 to 91.72**.
+
 - <span style="font-size: 18px;"><strong>iFLYTEK Co., Ltd	</strong></span>, *Jun - Sep 2025*  
   *Algorithm Engineer Intern*  
 Development and optimization of reusable pipeline scripts integrating x-vector extraction, vq-code generation, prosody analysis, PyDur-based duration modeling, and MFA-based phoneme alignment, enabling large-scale speech synthesis. Proposed and implemented a variance-based speech quality detection method, improving anomaly detection accuracy at waveform boundaries. Collaborated with team members and reported weekly progress in project meetings.
 
 - <span style="font-size: 18px;"><strong>Fudan University</strong></span>, *Jun–Sep 2024*  
   *Research Assistant*  
-  - Professor Wei Wang's team participation, literature search, pollutant information extraction OCR research, model analysis, program design, project work report under the guidance of the professor.
+  - Professor Wei Wang's team participation, literature search, pollutant information extraction OCR research, model analysis, program design, project work report under the guidance of the professor. See below for [details](#pollutant-ocr).
 
 - <span style="font-size: 18px;"><strong>Shanghai Chengdian Fuzhi Technology Co., Ltd.</strong></span>, *Jun–Sep 2023*  
   *Project Assistant*  
@@ -65,6 +70,11 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
 
   .project-image img {
     width: 100%;
+  }
+
+  .project-image.project-image-compact {
+    width: 320px;
+    max-width: 100%;
   }
 
   @media (max-width: 768px) {
@@ -323,7 +333,7 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
       Optimized dataset management and the training pipeline. Trained on 5,000 images and evaluated on 500 test images from a COCO subset, achieving <strong>0.6128 mAP@50</strong>, compared with <strong>0.5453 for the YOLOv8s baseline</strong>.
     </div>
   </div>
-  <figure class="project-image yolo-pipeline" aria-label="Simplified text-guided object detection workflow and example output">
+  <figure class="project-image project-image-compact yolo-pipeline" aria-label="Simplified text-guided object detection workflow and example output">
     <div class="pipeline-title">Text-Guided Object Detection</div>
     <div class="pipeline-branches">
       <div>
@@ -415,7 +425,7 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
 </div>
 <hr class="project-divider">
 
-<div class="project-container"> <!-- PaddleOCR -->
+<div class="project-container" id="pollutant-ocr" style="scroll-margin-top: 80px;"> <!-- PaddleOCR -->
   <div class="project-text">
     <div style="font-size: 20px; font-weight: bold;">
       • Pollutant Information Extraction with OCR
@@ -433,7 +443,7 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
       </a>
     </div>
   </div>
-  <div class="project-image">
+  <div class="project-image project-image-compact">
     <a href="{{ '/images/pdf-to-json.svg' | relative_url }}" target="_blank" rel="noopener" title="Open full-size image">
       <img src="/images/pdf-to-json.svg" alt="PDF text extraction workflow: document pages, PaddleOCR text detection and recognition, structured JSON output">
     </a>
