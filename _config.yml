@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Lanting Lu"
-description              : "CS student @ UW"
+description              : "Open to Internship Opportunities"
 repository               : "lantinglu/lantinglu.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,7 +24,7 @@ author:
   name             : "Lanting Lu"
   avatar           : "images/1.png"
   bio              : #
-  location         : "Seattle, WA / Shanghai, China"
+  location         : "Champaign, IL/ Shanghai, China"
   employer         :
   pubmed           : 
   googlescholar    : 
@@ -37,13 +37,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "lantinglu"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : # e.g., "linkedin username"
+  linkedin         : "lanting-lu-1783bb257"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
   orcid            : # e.g., "https://orcid.org/xxxx"
   pinterest        :

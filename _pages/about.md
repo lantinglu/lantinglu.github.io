@@ -18,10 +18,12 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # About
-I am an incoming Master of Science in Computer Science student at the University of Illinois Urbana-Champaign, with an undergraduate background in Computer Science and Applied Mathematics from the University of Washington.
+I am pursuing a master’s degree in Computer Science at the University of Illinois Urbana-Champaign, after earning my bachelor’s degree in Computer Science and Applied Mathematics from the University of Washington.
+
+I am currently open to internship opportunities across software engineering, machine learning, and related fields.
 
 # 📖 Educations
--  **University of Washington**, 2022.09 - 2026.06<br>
+-  **University of Washington**, 2022.09 - 2026.03<br>
 Bachelor of Science in Computer Science<br>
 Bachelor of Science in Applied Mathematics: Data Science
 
@@ -81,7 +83,9 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
   }
 
   .yolo-pipeline {
+    display: block;
     box-sizing: border-box;
+    max-width: 100%;
     margin: 0;
     padding: 18px;
     border: 1px solid #dce5ee;
@@ -103,6 +107,49 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 12px;
+  }
+
+  .yolo-pipeline .pipeline-branches > div {
+    display: grid;
+    grid-template-rows: auto 30px 1fr;
+    min-width: 0;
+  }
+
+  .yolo-pipeline .pipeline-merge {
+    position: relative;
+    height: 22px;
+    margin: 0 25%;
+    border-right: 1px solid #637e99;
+    border-bottom: 1px solid #637e99;
+    border-left: 1px solid #637e99;
+  }
+
+  .yolo-pipeline .pipeline-merge::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    height: 16px;
+    border-left: 1px solid #637e99;
+  }
+
+  .yolo-pipeline .pipeline-merge + .pipeline-arrow {
+    position: relative;
+    height: 24px;
+    padding: 0;
+    font-size: 0;
+  }
+
+  .yolo-pipeline .pipeline-merge + .pipeline-arrow::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 4px);
+    width: 7px;
+    height: 7px;
+    border-right: 1px solid #637e99;
+    border-bottom: 1px solid #637e99;
+    transform: rotate(45deg);
   }
 
   .yolo-pipeline .pipeline-node {
@@ -142,6 +189,7 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
 
   .yolo-pipeline .pipeline-output img {
     display: block;
+    margin: 0;
     border-radius: 6px;
     height: auto;
   }
@@ -266,7 +314,7 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
       Built an open-vocabulary object detection system covering text encoding, visual feature extraction, and cross-modal fusion. Integrated a YOLOv8-based CNN backbone, a CLIP Text Encoder, and a lightweight RepVL-PAN module to jointly model multi-scale visual features and text embeddings. Used a Text Adapter to modulate C3/C4/C5 features under textual guidance for cross-modal alignment.
     </div>
     <div style="margin: 10px 0;">
-      Optimized dataset management and the training pipeline. Achieved <strong>0.6128 mAP@50 on a COCO subset</strong>, compared with <strong>0.5453 for the YOLOv8s baseline</strong>, demonstrating the effectiveness of the lightweight multimodal fusion approach in this evaluation.
+      Optimized dataset management and the training pipeline. Trained on 5,000 images and evaluated on 500 test images from a COCO subset, achieving <strong>0.6128 mAP@50</strong>, compared with <strong>0.5453 for the YOLOv8s baseline</strong>.
     </div>
   </div>
   <figure class="project-image yolo-pipeline" aria-label="Simplified text-guided object detection workflow and example output">
@@ -276,15 +324,15 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
         <div class="pipeline-node"><strong>Input image</strong><span>Visual branch</span></div>
         <div class="pipeline-arrow" aria-hidden="true">&#8595;</div>
         <div class="pipeline-node"><strong>YOLOv8 backbone</strong><span>Multi-scale C3 / C4 / C5 features</span></div>
-        <div class="pipeline-arrow" aria-hidden="true">&#8600;</div>
       </div>
       <div>
         <div class="pipeline-node"><strong>Text prompts</strong><span>Object categories</span></div>
         <div class="pipeline-arrow" aria-hidden="true">&#8595;</div>
         <div class="pipeline-node"><strong>CLIP Text Encoder</strong><span>Text embeddings</span></div>
-        <div class="pipeline-arrow" aria-hidden="true">&#8601;</div>
       </div>
     </div>
+    <div class="pipeline-merge" aria-hidden="true"></div>
+    <div class="pipeline-arrow" aria-hidden="true">&#8595;</div>
     <div class="pipeline-node pipeline-fusion"><strong>Vision-Language Fusion</strong><span>Text Adapter + RepVL-PAN</span></div>
     <div class="pipeline-arrow" aria-hidden="true">&#8595;</div>
     <div class="pipeline-node"><strong>Detection &amp; confidence filtering</strong><span>Bounding boxes &middot; threshold &gt; 0.25</span></div>
@@ -294,10 +342,7 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
       <img src="{{ '/images/yolo-world-overlay.jpg' | relative_url }}" alt="Surfing scene with two predicted boxes in red and ground-truth boxes in green; prediction confidence scores are 0.97 and 0.90." width="944" height="966" loading="lazy">
     </a>
     <figcaption>
-      Simplified workflow &middot; qualitative example<br>
-      Green: ground truth &middot; Red: predictions<br>
-      Confidence scores: 0.97 / 0.90
-      <div class="pipeline-links"><a href="{{ '/images/yolo-world-gt.jpg' | relative_url }}">Ground truth</a> &middot; <a href="{{ '/images/yolo-world-pred.jpg' | relative_url }}">Predictions</a> &middot; <a href="{{ '/images/yolo-world-overlay.jpg' | relative_url }}">Full-size overlay</a></div>
+      Detection results &mdash; Ground truth (green), predictions (red).
     </figcaption>
   </figure>
 </div>
@@ -360,6 +405,30 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
 </div>
 <hr class="project-divider">
 
+<div class="project-container"> <!-- PaddleOCR -->
+  <div class="project-text">
+    <div style="font-size: 20px; font-weight: bold;">
+      • Pollutant Information Extraction with OCR
+    </div>
+    <div style="margin: 4px 0; font-style: italic;">
+      Fudan University
+    </div>
+    <div style="margin: 10px 0;">
+      Participation in a text-mining research project on intelligent document processing for environmental regulatory compliance; Design and implementation of an integrated table-parsing solution for information extraction from unstructured enterprise reports; Application of differentiable binarization models for text detection and CRNN-based text recognition for OCR.
+    </div>
+    <div style="margin: 6px 0;">
+      <strong>Languages & Tools</strong>: Python
+      <a href="https://github.com/lantinglu/PaddleOCR-pollution" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
+      </a>
+    </div>
+  </div>
+  <div class="project-image">
+    <img src="/images/Paddleocr.png" alt="PaddleOCR">
+  </div>
+</div>
+<hr class="project-divider">
+
 <div class="project-container"> <!-- Vaccine -->
   <div class="project-text">
     <div style="font-size: 20px; font-weight: bold;">
@@ -369,7 +438,7 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
       Designed and implemented a vaccine appointment scheduling system that allows users to create accounts, log in, check caregiver schedules, and reserve appointments through a terminal interface. Developed secure login with password hashing and salting, modeled patients and caregivers, and managed vaccine stock using SQL. Connected the system to a Microsoft Azure SQL database via JDBC.
     </div>
     <div style="margin: 6px 0;">
-      <strong>Languages & Tools</strong>: 
+      <strong>Languages & Tools</strong>:
       Java, SQL, JDBC, Microsoft Azure
       <a href="https://github.com/lantinglu/COVID-19-Vaccine-Reservation-System" style="text-decoration: none; margin-left: 8px; vertical-align: middle;">
         <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
@@ -402,26 +471,3 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
   </div>
 </div>
 <hr class="project-divider">
-
-<div class="project-container"> <!-- PaddleOCR -->
-  <div class="project-text">
-    <div style="font-size: 20px; font-weight: bold;">
-      • Pollutant Information Extraction with OCR
-    </div>
-    <div style="margin: 4px 0; font-style: italic;">
-      Fudan University
-    </div>
-    <div style="margin: 10px 0;">
-      Extracting environmental pollutant information from industrial environmental assessment PDFs using PaddleOCR.
-    </div>
-    <div style="margin: 6px 0;">
-      <strong>Languages & Tools</strong>: Python
-      <a href="https://github.com/lantinglu/PaddleOCR-pollution" style="text-decoration: none;">
-        <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
-      </a>
-    </div>
-  </div>
-  <div class="project-image">
-    <img src="/images/Paddleocr.png" alt="PaddleOCR">
-  </div>
-</div>
