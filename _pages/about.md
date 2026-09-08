@@ -80,6 +80,82 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
     }
   }
 
+  .yolo-pipeline {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 18px;
+    border: 1px solid #dce5ee;
+    border-radius: 14px;
+    background: #f7fafc;
+    color: #26374a;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .yolo-pipeline .pipeline-title {
+    margin-bottom: 14px;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .yolo-pipeline .pipeline-branches {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .yolo-pipeline .pipeline-node {
+    padding: 10px 6px;
+    border: 1px solid #cfdeec;
+    border-radius: 8px;
+    background: #fff;
+  }
+
+  .yolo-pipeline .pipeline-node strong,
+  .yolo-pipeline .pipeline-node span {
+    display: block;
+  }
+
+  .yolo-pipeline .pipeline-node span {
+    margin-top: 3px;
+    font-size: 11px;
+    color: #526579;
+  }
+
+  .yolo-pipeline .pipeline-arrow {
+    padding: 3px 0;
+    color: #637e99;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .yolo-pipeline .pipeline-fusion {
+    background: #eaf2fa;
+    border-color: #b9cfe3;
+  }
+
+  .yolo-pipeline .pipeline-output {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .yolo-pipeline .pipeline-output img {
+    display: block;
+    border-radius: 6px;
+    height: auto;
+  }
+
+  .yolo-pipeline figcaption {
+    margin-top: 10px;
+    font-size: 11px;
+    color: #526579;
+  }
+
+  .yolo-pipeline .pipeline-links {
+    margin-top: 6px;
+  }
+
   hr.project-divider {
     border: 0;
     height: 1px;
@@ -143,6 +219,87 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
   <div class="project-image">
     <img src="/images/multilingual-character.png" alt="multilingual character-level language prediction model">
   </div>
+</div>
+<hr class="project-divider">
+
+<div class="project-container"> <!-- MarketPilot AI -->
+  <div class="project-text">
+    <div style="font-size: 20px; font-weight: bold;">
+      &bull; MarketPilot AI: Market Entry Decision Support
+    </div>
+    <div style="margin: 4px 0; font-style: italic;">
+      Multi-Agent Workflow &amp; Market Intelligence Project
+    </div>
+    <div style="margin: 10px 0;">
+      Developed a modular market-entry analysis system that helps cross-border sellers evaluate overseas product opportunities. Integrated planning, retrieval, and reporting agents with rule-based demand forecasting, risk assessment, and a weighted Market Entry Score to generate explainable business recommendations.
+    </div>
+    <div style="margin: 10px 0;">
+      Built an Excel-to-CSV/JSON/SQLite data pipeline with source metadata and benchmark scenarios covering 8 markets and 5 industries. Supported free-form product queries with clearly labeled industry-benchmark fallback when exact product data is unavailable. Deployed an interactive Streamlit demo with English and Chinese reports, report previews, and Markdown downloads.
+    </div>
+    <div style="margin: 6px 0;">
+      <strong>Languages &amp; Tools</strong>: Python, pandas, openpyxl, SQLite, Streamlit, pytest
+    </div>
+    <div style="margin-top: 10px;">
+      <a href="https://marketpilot-ai-agent.streamlit.app/" style="text-decoration: none; margin-right: 8px;">
+        <img src="https://img.shields.io/badge/-Live_Demo-blue?logo=streamlit&amp;style=flat" alt="Live Demo">
+      </a>
+      <a href="https://github.com/lantinglu/MarketPilot-AI" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/-GitHub-black?logo=github&amp;style=flat" alt="GitHub">
+      </a>
+    </div>
+  </div>
+  <div class="project-image">
+    <img src="/images/marketPilot.png" alt="MarketPilot AI market-entry analysis dashboard">
+  </div>
+</div>
+<hr class="project-divider">
+
+<div class="project-container"> <!-- YOLO-World -->
+  <div class="project-text">
+    <div style="font-size: 20px; font-weight: bold;">
+      &bull; YOLO-World for Open-Vocabulary Object Detection
+    </div>
+    <div style="margin: 4px 0; font-style: italic;">
+      Computer Vision &amp; Vision-Language Modeling Project
+    </div>
+    <div style="margin: 10px 0;">
+      Built an open-vocabulary object detection system covering text encoding, visual feature extraction, and cross-modal fusion. Integrated a YOLOv8-based CNN backbone, a CLIP Text Encoder, and a lightweight RepVL-PAN module to jointly model multi-scale visual features and text embeddings. Used a Text Adapter to modulate C3/C4/C5 features under textual guidance for cross-modal alignment.
+    </div>
+    <div style="margin: 10px 0;">
+      Optimized dataset management and the training pipeline. Achieved <strong>0.6128 mAP@50 on a COCO subset</strong>, compared with <strong>0.5453 for the YOLOv8s baseline</strong>, demonstrating the effectiveness of the lightweight multimodal fusion approach in this evaluation.
+    </div>
+  </div>
+  <figure class="project-image yolo-pipeline" aria-label="Simplified text-guided object detection workflow and example output">
+    <div class="pipeline-title">Text-Guided Object Detection</div>
+    <div class="pipeline-branches">
+      <div>
+        <div class="pipeline-node"><strong>Input image</strong><span>Visual branch</span></div>
+        <div class="pipeline-arrow" aria-hidden="true">&#8595;</div>
+        <div class="pipeline-node"><strong>YOLOv8 backbone</strong><span>Multi-scale C3 / C4 / C5 features</span></div>
+        <div class="pipeline-arrow" aria-hidden="true">&#8600;</div>
+      </div>
+      <div>
+        <div class="pipeline-node"><strong>Text prompts</strong><span>Object categories</span></div>
+        <div class="pipeline-arrow" aria-hidden="true">&#8595;</div>
+        <div class="pipeline-node"><strong>CLIP Text Encoder</strong><span>Text embeddings</span></div>
+        <div class="pipeline-arrow" aria-hidden="true">&#8601;</div>
+      </div>
+    </div>
+    <div class="pipeline-node pipeline-fusion"><strong>Vision-Language Fusion</strong><span>Text Adapter + RepVL-PAN</span></div>
+    <div class="pipeline-arrow" aria-hidden="true">&#8595;</div>
+    <div class="pipeline-node"><strong>Detection &amp; confidence filtering</strong><span>Bounding boxes &middot; threshold &gt; 0.25</span></div>
+    <div class="pipeline-arrow" aria-hidden="true">&#8595;</div>
+    <div><strong>Output / Ground-Truth Comparison</strong></div>
+    <a class="pipeline-output" href="{{ '/images/yolo-world-overlay.jpg' | relative_url }}">
+      <img src="{{ '/images/yolo-world-overlay.jpg' | relative_url }}" alt="Surfing scene with two predicted boxes in red and ground-truth boxes in green; prediction confidence scores are 0.97 and 0.90." width="944" height="966" loading="lazy">
+    </a>
+    <figcaption>
+      Simplified workflow &middot; qualitative example<br>
+      Green: ground truth &middot; Red: predictions<br>
+      Confidence scores: 0.97 / 0.90
+      <div class="pipeline-links"><a href="{{ '/images/yolo-world-gt.jpg' | relative_url }}">Ground truth</a> &middot; <a href="{{ '/images/yolo-world-pred.jpg' | relative_url }}">Predictions</a> &middot; <a href="{{ '/images/yolo-world-overlay.jpg' | relative_url }}">Full-size overlay</a></div>
+    </figcaption>
+  </figure>
 </div>
 <hr class="project-divider">
 
