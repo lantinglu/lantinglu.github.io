@@ -236,7 +236,9 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
     </div>
   </div>
   <div class="project-image">
-    <img src="/images/wordplay.png" alt="wordplay">
+    <a href="{{ '/images/wordplay.png' | relative_url }}" target="_blank" rel="noopener" title="Open full-size image">
+      <img src="/images/wordplay.png" alt="wordplay">
+    </a>
   </div>
 </div>
 <hr class="project-divider">
@@ -265,7 +267,9 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
     </div>
   </div>
   <div class="project-image">
-    <img src="/images/multilingual-character.png" alt="multilingual character-level language prediction model">
+    <a href="{{ '/images/multilingual-character.png' | relative_url }}" target="_blank" rel="noopener" title="Open full-size image">
+      <img src="/images/multilingual-character.png" alt="multilingual character-level language prediction model">
+    </a>
   </div>
 </div>
 <hr class="project-divider">
@@ -297,7 +301,9 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
     </div>
   </div>
   <div class="project-image">
-    <img src="/images/marketPilot.png" alt="MarketPilot AI market-entry analysis dashboard">
+    <a href="{{ '/images/marketPilot.png' | relative_url }}" target="_blank" rel="noopener" title="Open full-size image">
+      <img src="/images/marketPilot.png" alt="MarketPilot AI market-entry analysis dashboard">
+    </a>
   </div>
 </div>
 <hr class="project-divider">
@@ -370,7 +376,9 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
     </div>
   </div>
   <div class="project-image">
-    <img src="/images/NST.png" alt="NST" style="max-width: 500px; width: 100%; height: auto;">
+    <a href="{{ '/images/NST.png' | relative_url }}" target="_blank" rel="noopener" title="Open full-size image">
+      <img src="/images/NST.png" alt="NST" style="max-width: 500px; width: 100%; height: auto;">
+    </a>
   </div>
 </div>
 <hr class="project-divider">
@@ -400,7 +408,9 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
     </div>
   </div>
   <div class="project-image">
-    <img src="/images/Green-mode.GIF" alt="Green-mode" style="max-width: 500px; width: 100%; height: auto;">
+    <a href="{{ '/images/Green-mode.GIF' | relative_url }}" target="_blank" rel="noopener" title="Open full-size image">
+      <img src="/images/Green-mode.GIF" alt="Green-mode" style="max-width: 500px; width: 100%; height: auto;">
+    </a>
   </div>
 </div>
 <hr class="project-divider">
@@ -424,7 +434,9 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
     </div>
   </div>
   <div class="project-image">
-    <img src="/images/Paddleocr.png" alt="PaddleOCR">
+    <a href="{{ '/images/pdf-to-json.svg' | relative_url }}" target="_blank" rel="noopener" title="Open full-size image">
+      <img src="/images/pdf-to-json.svg" alt="PDF text extraction workflow: document pages, PaddleOCR text detection and recognition, structured JSON output">
+    </a>
   </div>
 </div>
 <hr class="project-divider">
@@ -446,7 +458,9 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
     </div>
   </div>
   <div class="project-image">
-    <img src="/images/vaccineReserv.png" alt="Vaccine Reservation System">
+    <a href="{{ '/images/vaccineReserv.png' | relative_url }}" target="_blank" rel="noopener" title="Open full-size image">
+      <img src="/images/vaccineReserv.png" alt="Vaccine Reservation System">
+    </a>
   </div>
 </div>
 <hr class="project-divider">
@@ -467,7 +481,9 @@ Development and optimization of reusable pipeline scripts integrating x-vector e
     </div>
   </div>
   <div class="project-image">
-    <img src="/images/tinyserv.png" alt="tinyserv">
+    <a href="{{ '/images/tinyserv.png' | relative_url }}" target="_blank" rel="noopener" title="Open full-size image">
+      <img src="/images/tinyserv.png" alt="tinyserv">
+    </a>
   </div>
 </div>
 <hr class="project-divider">

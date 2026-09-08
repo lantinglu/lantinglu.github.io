@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="900" viewBox="0 0 800 900" role="img" aria-labelledby="title desc">
+  <title id="title">From PDF to structured JSON</title>
+  <desc id="desc">Illustrative workflow: environmental reports are processed with PaddleOCR for text detection and recognition, then serialized as JSON containing four-point text boxes, recognized text, and confidence scores, following the PaddleOCR 2.x result structure. Values are illustrative.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M1 1L7 4L1 7" fill="none" stroke="#6e88a2" stroke-width="1.5"/></marker>
+  </defs>
+  <rect x="1" y="1" width="798" height="898" rx="26" fill="#f6f9fc" stroke="#dbe5ef"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="40" y="87" font-size="29" font-weight="700" fill="#20364c">From PDF to structured JSON</text>
+    <rect x="40" y="117" width="720" height="144" rx="16" fill="white" stroke="#d9e3ed"/>
+    <path d="M74 141H135L156 162V237H74Z" fill="#eef3f8" stroke="#abc0d3" stroke-width="2"/>
+    <path d="M135 141V162H156" fill="none" stroke="#abc0d3" stroke-width="2"/>
+    <rect x="87" y="170" width="55" height="26" rx="5" fill="#dce9f5"/>
+    <text x="114" y="189" text-anchor="middle" font-size="16" font-weight="700" fill="#365b7f">PDF</text>
+    <path d="M88 208H142M88 218H132" stroke="#abc0d3" stroke-width="3"/>
+    <text x="187" y="160" font-size="12" font-weight="700" letter-spacing="1.5" fill="#69829a">01 / INPUT</text>
+    <text x="187" y="192" font-size="23" font-weight="700" fill="#20364c">Environmental reports</text>
+    <text x="187" y="222" font-size="17" fill="#62768a">PDF pages with text and tables</text>
+    <path d="M400 268V292" stroke="#6e88a2" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="40" y="304" width="720" height="151" rx="16" fill="#eaf2fa" stroke="#c5d8e9"/>
+    <text x="65" y="337" font-size="12" font-weight="700" letter-spacing="1.5" fill="#52718e">02 / EXTRACT &amp; ORGANIZE</text>
+    <text x="65" y="370" font-size="24" font-weight="700" fill="#20364c">PaddleOCR</text>
+    <rect x="65" y="393" width="184" height="37" rx="8" fill="white"/>
+    <rect x="270" y="393" width="212" height="37" rx="8" fill="white"/>
+    <rect x="503" y="393" width="229" height="37" rx="8" fill="white"/>
+    <g font-size="15" fill="#365b7f" text-anchor="middle">
+      <text x="157" y="417">Text detection</text><text x="376" y="417">Text recognition</text><text x="617" y="417">JSON serialization</text>
+    </g>
+    <path d="M250 411H263M484 411H496" stroke="#6e88a2" marker-end="url(#arrow)"/>
+    <path d="M400 462V486" stroke="#6e88a2" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="40" y="498" width="720" height="110" rx="16" fill="white" stroke="#d9e3ed"/>
+    <text x="65" y="527" font-size="12" font-weight="700" letter-spacing="1.5" fill="#52718e">DETECTED TEXT LINE</text>
+    <rect x="65" y="545" width="303" height="36" fill="#effaf5" stroke="#269c72" stroke-width="2"/>
+    <text x="76" y="570" font-size="20" fill="#20364c">Environmental report</text>
+    <text x="402" y="568" font-size="17" fill="#52718e">Recognition confidence: 0.98</text>
+    <path d="M400 615V637" stroke="#6e88a2" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="40" y="650" width="720" height="190" rx="16" fill="#20364c"/>
+    <text x="65" y="680" font-size="12" font-weight="700" letter-spacing="1.5" fill="#aac8e0">03 / JSON EXPORT ? SINGLE-PAGE RESULT</text>
+    <g font-family="Consolas, 'Courier New', monospace" font-size="20" fill="#dcebf6">
+      <text x="65" y="713">[</text>
+      <text x="89" y="741">[</text>
+      <text x="113" y="769" fill="#a9cfee">[[24, 32], [280, 32], [280, 58], [24, 58]],</text>
+      <text x="113" y="797">[<tspan fill="#a7dbc9">"Environmental report"</tspan>, <tspan fill="#f5cf8c">0.98</tspan>]</text>
+      <text x="65" y="825">  ] ]</text>
+    </g>
+    <text x="400" y="864" text-anchor="middle" font-size="13" fill="#52718e">Four-point text box + recognized text + confidence</text>
+    <text x="400" y="886" text-anchor="middle" font-size="12" fill="#69829a">PaddleOCR 2.x format ? illustrative values, not an actual project result</text>
+  </g>
+</svg>
