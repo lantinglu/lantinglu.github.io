@@ -33,9 +33,11 @@ Bachelor of Science in Applied Mathematics: Data Science
 # 💼 Work Experience
 - <span style="font-size: 18px;"><strong>United Automotive Electronic Systems (UAES)</strong></span>, *Jun - Aug 2026*<br>
   *Algorithm Engineer Intern*<br>
-  - Developed an automated evaluation pipeline with OmniDocBench to benchmark enterprise document parsing systems built with PaddleOCR-VL and MinerU in Dockerized environments. Built a semantic data-selection pipeline for internal enterprise documents by extracting chunk-level embeddings, measuring pairwise cosine distances, and aggregating them into document-level average-distance scores.
+  - Built an automated evaluation framework based on OmniDocBench to benchmark internal document parsing tools, enabling systematic comparison of parsing quality and identification of model weaknesses.
 
-  - Applied HDBSCAN to group documents into semantic clusters and selected representative samples using a minimum-subset strategy that maximized semantic feature coverage, while filtering out unsuitable and redundant documents. Integrated selected samples with Label Studio for annotation and model iteration, improving the document parsing evaluation score from **86.86 to 91.72**.
+  - Designed and implemented a data feedback loop for a PaddleX-based PDF parsing pipeline, combining LLM-based logical validation, image encoder features, and unsupervised clustering to identify challenging samples and reduce redundant annotation. Curated a high-quality reference dataset with targeted human annotation to support model iteration.
+
+  - Drove iterative model improvements through continuous evaluation, issue feedback to the modeling team, and re-evaluation of updated models, contributing to an increase in the document parsing evaluation score from **86.86 to 91.72**. Exposed the document parsing pipeline through an API for subsequent internal use.
 
 - <span style="font-size: 18px;"><strong>iFLYTEK Co., Ltd	</strong></span>, *Jun - Sep 2025*  
   *Algorithm Engineer Intern*  
