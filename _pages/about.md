@@ -33,13 +33,13 @@ Bachelor of Science in Applied Mathematics: Data Science
 # 💼 Work Experience
 - <span style="font-size: 18px;"><strong>United Automotive Electronic Systems (UAES)</strong></span>, *Jun - Aug 2026*<br>
   *Algorithm Engineer Intern*<br>
-- Developed an automated evaluation pipeline with OmniDocBench to benchmark enterprise document parsing systems built with PaddleOCR-VL and MinerU in Dockerized environments. Built a semantic data-selection pipeline for internal enterprise documents by extracting chunk-level embeddings, measuring pairwise cosine distances, and aggregating them into document-level average-distance scores.
+  - Developed an automated evaluation pipeline with OmniDocBench to benchmark enterprise document parsing systems built with PaddleOCR-VL and MinerU in Dockerized environments. Built a semantic data-selection pipeline for internal enterprise documents by extracting chunk-level embeddings, measuring pairwise cosine distances, and aggregating them into document-level average-distance scores.
 
-Applied HDBSCAN to group documents into semantic clusters and selected representative samples using a minimum-subset strategy that maximized semantic feature coverage, while filtering out unsuitable and redundant documents. Integrated selected samples with Label Studio for annotation and model iteration, improving the document parsing evaluation score from **86.86 to 91.72**.
+  - Applied HDBSCAN to group documents into semantic clusters and selected representative samples using a minimum-subset strategy that maximized semantic feature coverage, while filtering out unsuitable and redundant documents. Integrated selected samples with Label Studio for annotation and model iteration, improving the document parsing evaluation score from **86.86 to 91.72**.
 
 - <span style="font-size: 18px;"><strong>iFLYTEK Co., Ltd	</strong></span>, *Jun - Sep 2025*  
   *Algorithm Engineer Intern*  
-- Development and optimization of reusable pipeline scripts integrating x-vector extraction, vq-code generation, prosody analysis, PyDur-based duration modeling, and MFA-based phoneme alignment, enabling large-scale speech synthesis. Proposed and implemented a variance-based speech quality detection method, improving anomaly detection accuracy at waveform boundaries. Collaborated with team members and reported weekly progress in project meetings.
+  - Development and optimization of reusable pipeline scripts integrating x-vector extraction, vq-code generation, prosody analysis, PyDur-based duration modeling, and MFA-based phoneme alignment, enabling large-scale speech synthesis. Proposed and implemented a variance-based speech quality detection method, improving anomaly detection accuracy at waveform boundaries. Collaborated with team members and reported weekly progress in project meetings.
 
 - <span style="font-size: 18px;"><strong>Fudan University</strong></span>, *Jun–Sep 2024*  
   *Research Assistant*  
