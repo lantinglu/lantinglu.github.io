@@ -161,9 +161,6 @@ Bachelor of Science in Applied Mathematics: Data Science
     <div style="font-size: 20px; font-weight: bold;">
       • Multilingual Character-Level Language Model for Next-Character Prediction
     </div>
-    <div style="margin: 4px 0; font-style: italic;">
-      Multilingual NLP & Language Modeling Project
-    </div>
     <div style="margin: 10px 0;">
       Developed a multilingual character-level language prediction model for next-character prediction under low-resource and noisy text scenarios. Proposed a hybrid framework combining a character-level Transformer with a statistical N-gram language model, using weighted score fusion to improve prediction robustness and stability across multilingual inputs.
     </div>
@@ -193,7 +190,7 @@ Bachelor of Science in Applied Mathematics: Data Science
       &bull; MarketPilot AI: Market Entry Decision Support
     </div>
     <div style="margin: 4px 0; font-style: italic;">
-      Multi-Agent Workflow &amp; Market Intelligence Project
+      Multi-Agent Workflow
     </div>
     <div style="margin: 10px 0;">
       Developed a modular market-entry analysis system that helps cross-border sellers evaluate overseas product opportunities. Integrated planning, retrieval, and reporting agents with rule-based demand forecasting, risk assessment, and a weighted Market Entry Score to generate explainable business recommendations.
@@ -225,9 +222,6 @@ Bachelor of Science in Applied Mathematics: Data Science
   <div class="project-text">
     <div style="font-size: 20px; font-weight: bold;">
       &bull; YOLO-World for Open-Vocabulary Object Detection
-    </div>
-    <div style="margin: 4px 0; font-style: italic;">
-      Computer Vision &amp; Vision-Language Modeling Project
     </div>
     <div style="margin: 10px 0;">
       Built an open-vocabulary object detection system covering text encoding, visual feature extraction, and cross-modal fusion. Integrated a YOLOv8-based CNN backbone, a CLIP Text Encoder, and a lightweight RepVL-PAN module to jointly model multi-scale visual features and text embeddings. Used a Text Adapter to modulate C3/C4/C5 features under textual guidance for cross-modal alignment.
