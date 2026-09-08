@@ -95,17 +95,21 @@ Bachelor of Science in Applied Mathematics: Data Science
 
   .yolo-results {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 32px minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr) 20px minmax(0, 1fr);
     align-items: center;
-    gap: 12px;
-    width: 100%;
-    max-width: 760px;
-    margin: 16px auto 0;
+    gap: 8px;
+    width: 400px;
+    max-width: 100%;
+    flex-shrink: 0;
+    margin: 0;
   }
   .yolo-results img { display: block; width: 100%; height: auto; }
   .yolo-result { min-width: 0; text-align: center; }
   .yolo-result p { margin: 8px 0 0; font-size: 12px; }
   .yolo-result-arrow { text-align: center; font-size: 28px; color: #637e99; }
+  @media (max-width: 768px) {
+    .yolo-results { width: 100%; }
+  }
   @media (max-width: 540px) {
     .yolo-results { grid-template-columns: minmax(0, 1fr); max-width: 360px; }
     .yolo-result-arrow { transform: rotate(90deg); }
@@ -232,7 +236,7 @@ Bachelor of Science in Applied Mathematics: Data Science
   </div>
   <div class="yolo-results" aria-label="Detection workflow on the left and example output on the right">
     <a href="{{ '/images/yolo-workflow.svg' | relative_url }}" target="_blank" rel="noopener" title="Open full-size workflow">
-      <img src="{{ '/images/yolo-workflow.svg' | relative_url }}" alt="Image and text branches merge into vision-language fusion, followed by detection and confidence filtering" width="600" height="600" loading="lazy">
+      <img src="{{ '/images/yolo-workflow.svg' | relative_url }}" alt="Image and text branches merge into vision-language fusion, followed by detection and confidence filtering" width="600" height="548" loading="lazy">
     </a>
     <div class="yolo-result-arrow" aria-hidden="true">&#8594;</div>
     <div class="yolo-result">
