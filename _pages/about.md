@@ -80,6 +80,91 @@ Master of Computer Science<br>
   }
 </style>
 
+<div class="project-container"> <!-- Wordplay -->
+  <div class="project-text">
+    <div style="font-size: 20px; font-weight: bold;">
+      • Wordplay: An Interactive Programming Language for Multilingual and Inclusive Expression
+    </div>
+    <div style="margin: 4px 0; font-style: italic;">
+      UW iSchool & Allen School
+    </div>
+    <div style="margin: 10px 0;">
+      Participating in the development and testing of <strong>Wordplay</strong>, an interactive programming language designed for multilingual users and people with disabilities. Working on responsive data flow modules, graphical and interactive programming features, and contributed to an adaptable programming prototype. Regularly reported project progress, discussed human-computer interaction research topics, and summarized experimental findings.
+    </div>
+    <div style="margin: 6px 0;">
+      <strong>Languages & Tools</strong>: JavaScript, TypeScript, HTML, CSS, Svelte/SvelteKit
+    </div>
+    <div style="margin-top: 10px;">
+      <a href="https://wordplay.dev/" style="text-decoration: none; margin-right: 8px;">
+        <img src="https://img.shields.io/badge/🌐-Wordplay website-blue?style=flat" alt="Website">
+      </a>
+      <a href="https://github.com/wordplaydev/wordplay" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/-GitHub-black?logo=github&style=flat" alt="GitHub">
+      </a>
+    </div>
+  </div>
+  <div class="project-image">
+    <img src="/images/wordplay.png" alt="wordplay">
+  </div>
+</div>
+<hr class="project-divider">
+
+<div class="project-container"> <!-- Multilingual Character-Level Language Prediction Model -->
+  <div class="project-text">
+    <div style="font-size: 20px; font-weight: bold;">
+      • Multilingual Character-Level Language Model for Next-Character Prediction
+    </div>
+    <div style="margin: 4px 0; font-style: italic;">
+      Multilingual NLP & Language Modeling Project
+    </div>
+    <div style="margin: 10px 0;">
+      Developed a multilingual character-level language prediction model for next-character prediction under low-resource and noisy text scenarios. Proposed a hybrid framework combining a character-level Transformer with a statistical N-gram language model, using weighted score fusion to improve prediction robustness and stability across multilingual inputs.
+    </div>
+    <div style="margin: 10px 0;">
+      Implemented an end-to-end training and inference pipeline with AdamW optimization and a cosine annealing learning rate schedule with warmup, improving training stability and convergence efficiency. Processed multilingual datasets and evaluated model performance through prediction accuracy and experimental comparison.
+    </div>
+    <div style="margin: 6px 0;">
+      <strong>Languages & Tools</strong>: Python, PyTorch, Transformer
+    </div>
+    <div style="margin-top: 10px;">
+      <a href="https://github.com/lantinglu/Multilingual-Character-Level-Language-Prediction-Model" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/-GitHub-black?logo=github&style=flat" alt="GitHub">
+      </a>
+    </div>
+  </div>
+  <div class="project-image">
+    <img src="/images/multilingual-character.png" alt="multilingual character-level language prediction model">
+  </div>
+</div>
+<hr class="project-divider">
+
+<div class="project-container"> <!-- Style Transfer -->
+  <div class="project-text">
+    <div style="font-size: 20px; font-weight: bold;">
+      • Optimization of Neural Style Transfer
+    </div>
+    <div style="margin: 10px 0;">
+      Built a modular Neural Style Transfer system in Python using PyTorch, inspired by 
+      <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf" target="_blank" style="text-decoration: underline;">
+        Gatys et al. (2016)
+      </a>.
+      Leveraged a pre-trained VGG-19 network to extract content and style features, computed via MSE and Gram matrices. Optimized with L-BFGS over 300–500 iterations, supporting both CPU and GPU. Evaluated VGG19 against ResNet18, and proposed improvements for mobile and web deployment.
+    </div>
+    <div style="margin: 6px 0;">
+      <strong>Languages & Tools</strong>: Python, PyTorch, Torchvision, Pillow (PIL), Matplotlib
+    </div>
+    <div style="margin: 6px 0;">
+      <a href="https://github.com/lantinglu/style-transfer" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
+      </a>
+    </div>
+  </div>
+  <div class="project-image">
+    <img src="/images/NST.png" alt="NST" style="max-width: 500px; width: 100%; height: auto;">
+  </div>
+</div>
+<hr class="project-divider">
+
 <div class="project-container"> <!-- Green mode -->
   <div class="project-text">
     <div style="font-size: 20px; font-weight: bold;">
