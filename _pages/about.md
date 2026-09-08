@@ -251,6 +251,32 @@ Bachelor of Science in Applied Mathematics: Data Science
 </div>
 <hr class="project-divider">
 
+<div class="project-container" id="pollutant-ocr" style="scroll-margin-top: 80px;"> <!-- PaddleOCR -->
+  <div class="project-text">
+    <div style="font-size: 20px; font-weight: bold;">
+      • Pollutant Information Extraction with OCR
+    </div>
+    <div style="margin: 4px 0; font-style: italic;">
+      Fudan University
+    </div>
+    <div style="margin: 10px 0;">
+      Participation in a text-mining research project on intelligent document processing for environmental regulatory compliance; Design and implementation of an integrated table-parsing solution for information extraction from unstructured enterprise reports; Application of differentiable binarization models for text detection and CRNN-based text recognition for OCR.
+    </div>
+    <div style="margin: 6px 0;">
+      <strong>Languages & Tools</strong>: Python
+      <a href="https://github.com/lantinglu/PaddleOCR-pollution" style="text-decoration: none;">
+        <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
+      </a>
+    </div>
+  </div>
+  <div class="project-image project-image-compact">
+    <a href="{{ '/images/pdf-to-json.svg' | relative_url }}" target="_blank" rel="noopener" title="Open full-size image">
+      <img src="/images/pdf-to-json.svg" alt="PDF text extraction workflow: document pages, PaddleOCR text detection and recognition, structured JSON output">
+    </a>
+  </div>
+</div>
+<hr class="project-divider">
+
 <div class="project-container"> <!-- Style Transfer -->
   <div class="project-text">
     <div style="font-size: 20px; font-weight: bold;">
@@ -312,31 +338,7 @@ Bachelor of Science in Applied Mathematics: Data Science
 </div>
 <hr class="project-divider">
 
-<div class="project-container" id="pollutant-ocr" style="scroll-margin-top: 80px;"> <!-- PaddleOCR -->
-  <div class="project-text">
-    <div style="font-size: 20px; font-weight: bold;">
-      • Pollutant Information Extraction with OCR
-    </div>
-    <div style="margin: 4px 0; font-style: italic;">
-      Fudan University
-    </div>
-    <div style="margin: 10px 0;">
-      Participation in a text-mining research project on intelligent document processing for environmental regulatory compliance; Design and implementation of an integrated table-parsing solution for information extraction from unstructured enterprise reports; Application of differentiable binarization models for text detection and CRNN-based text recognition for OCR.
-    </div>
-    <div style="margin: 6px 0;">
-      <strong>Languages & Tools</strong>: Python
-      <a href="https://github.com/lantinglu/PaddleOCR-pollution" style="text-decoration: none;">
-        <img src="https://img.shields.io/badge/-Code-black?logo=github&style=flat" alt="GitHub">
-      </a>
-    </div>
-  </div>
-  <div class="project-image project-image-compact">
-    <a href="{{ '/images/pdf-to-json.svg' | relative_url }}" target="_blank" rel="noopener" title="Open full-size image">
-      <img src="/images/pdf-to-json.svg" alt="PDF text extraction workflow: document pages, PaddleOCR text detection and recognition, structured JSON output">
-    </a>
-  </div>
-</div>
-<hr class="project-divider">
+
 
 <div class="project-container"> <!-- Vaccine -->
   <div class="project-text">
